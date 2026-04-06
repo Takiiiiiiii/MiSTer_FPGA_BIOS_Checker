@@ -182,38 +182,36 @@ IFS=$IFS_BAK
     echo "  https://takiiiiiii.github.io/MiSTerFPGA-BIOS/"
 } > "$REPORT"
 
-# Print checklist to terminal
+# Print results to terminal
 echo ""
-current_core=""
-IFS='
+if [ "$missing_count" -eq 0 ] && [ "$wrong_count" -eq 0 ]; then
+    echo "All $present_count BIOS files present and verified."
+else
+    if [ "$missing_count" -gt 0 ]; then
+        echo "MISSING:"
+        IFS='
 '
-for line in $ENTRIES; do
-    [ -z "$line" ] && continue
-    core=$(echo "$line" | cut -d'|' -f1)
-    filename=$(echo "$line" | cut -d'|' -f2)
-    rel=$(echo "$line" | cut -d'|' -f3)
-    expected_md5=$(echo "$line" | cut -d'|' -f5)
-    full_path="$GAMES_DIR/$rel"
-
-    if [ "$core" != "$current_core" ]; then
-        [ -n "$current_core" ] && echo ""
-        echo "[$core]"
-        current_core="$core"
+        for line in $missing_list; do
+            [ -z "$line" ] && continue
+            core=$(echo "$line" | cut -d'|' -f1)
+            filename=$(echo "$line" | cut -d'|' -f2)
+            printf "  %-18s %s\n" "[$core]" "$filename"
+        done
+        IFS=$IFS_BAK
     fi
-
-    if [ ! -f "$full_path" ]; then
-        echo "  x  $filename"
-    else
-        actual_md5=$(md5sum "$full_path" 2>/dev/null | cut -d' ' -f1)
-        if [ "$actual_md5" = "$expected_md5" ]; then
-            echo "  ok $filename"
-        else
-            echo "  !! $filename (wrong hash)"
-        fi
+    if [ "$wrong_count" -gt 0 ]; then
+        echo "WRONG HASH:"
+        IFS='
+'
+        for line in $wrong_list; do
+            [ -z "$line" ] && continue
+            core=$(echo "$line" | cut -d'|' -f1)
+            filename=$(echo "$line" | cut -d'|' -f2)
+            printf "  %-18s %s\n" "[$core]" "$filename"
+        done
+        IFS=$IFS_BAK
     fi
-done
-IFS=$IFS_BAK
-echo ""
-echo "---"
-echo "  Present: $present_count  Missing: $missing_count  Wrong: $wrong_count"
-echo "  Full report: $REPORT"
+    echo ""
+    echo "$present_count ok / $missing_count missing / $wrong_count wrong"
+fi
+echo "Full report: $REPORT"
