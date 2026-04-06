@@ -1,0 +1,16 @@
+# BIOS files (copyrighted)
+test_sd/
+X68000/
+*.rom
+*.bin
+*.sfc
+*.vhd
+
+# PR artifacts (submitted separately)
+retrobios_pr/
+
+# macOS
+.DS_Store
+
+# Claude
+.claude/

@@ -1,0 +1,42 @@
+name: Refresh BIOS data
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'build.py'
+      - 'data/**'
+      - '.github/workflows/refresh.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run build.py
+        run: python3 build.py
+
+      - name: Commit changes if any
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add BIOS_LIST.md docs/data/bios.json docs/data/meta.json scripts/check_bios.sh
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            UPSTREAM_ISO=$(python3 -c "import json; print(json.load(open('docs/data/meta.json'))['upstream_iso'])")
+            git commit -m "Refresh BIOS data (upstream @ ${UPSTREAM_ISO})"
+            git push
+          fi

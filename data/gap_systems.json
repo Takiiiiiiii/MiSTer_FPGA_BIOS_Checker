@@ -1,0 +1,4 @@
+{
+  "_comment": "MiSTer cores with a confirmed BIOS requirement that is NOT in BiosDB and where no single MD5 applies. Entries surface as yellow 'GAP' cards. When a recipe or verified hash is found, move to recipes.json or extras.json.",
+  "entries": []
+}

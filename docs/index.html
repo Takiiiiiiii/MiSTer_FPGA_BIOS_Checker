@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="MiSTer FPGA BIOS checker — see which BIOS files you're missing, with MD5 hashes for easy googling. Scans your SD card in-browser, nothing uploaded.">
+<title>MiSTer FPGA BIOS Checker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="header-top">
+    <h1><a href="./">MiSTer FPGA BIOS Checker</a></h1>
+    <button class="theme-toggle" id="theme-toggle" title="Toggle light/dark mode">Auto</button>
+  </div>
+  <div class="tagline">
+    Click Scan my SD card, or drag and drop your <code>games/</code> folder below to check your files. All hashing happens locally.
+  </div>
+  <div class="controls">
+    <button id="scan-btn" class="btn">Scan my SD card</button>
+    <button id="folder-btn" class="btn btn-secondary">Download Blank BIOS Folders</button>
+    <button id="clear-btn" class="btn btn-secondary hidden">Clear scan</button>
+    <input id="search" type="search" placeholder="Search by core, filename, or hash…" autocomplete="off">
+    <div class="filter-chips" id="filters">
+      <span class="chip active" data-filter="all">All</span>
+      <span class="chip" data-filter="missing">Missing</span>
+      <span class="chip" data-filter="ok">Present</span>
+      <span class="chip" data-filter="wrong">Wrong hash</span>
+    </div>
+  </div>
+  <div class="summary" id="summary">
+    <span><span class="count" id="count-total">…</span> total entries</span>
+    <span>across <span class="count" id="count-cores">…</span> cores</span>
+    <span><span class="count" id="count-retrobios">…</span> mirrored in retrobios</span>
+    <span id="scan-summary" class="hidden"></span>
+  </div>
+</header>
+
+<main>
+  <div id="drop-zone">
+    Drag and drop your <strong>/games/</strong> folder here — or click <em>Scan my SD card</em> above.
+  </div>
+  <div id="loading">Loading BIOS catalog…</div>
+  <div id="scan-progress" class="hidden"></div>
+  <div id="content"></div>
+</main>
+
+<footer>
+  Data from <a href="https://github.com/ajgowans/BiosDB_MiSTer" target="_blank" rel="noopener">ajgowans/BiosDB_MiSTer</a>
+  · Mirrors from <a href="https://github.com/Abdess/retrobios" target="_blank" rel="noopener">Abdess/retrobios</a>
+  · Nothing ever uploaded, MD5s computed in your browser
+  · <a href="https://github.com/Takiiiiiii/MiSTerFPGA-BIOS" target="_blank" rel="noopener">Source on GitHub</a>
+</footer>
+
+<input id="dir-input" type="file" webkitdirectory multiple class="hidden">
+
+<script src="md5.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

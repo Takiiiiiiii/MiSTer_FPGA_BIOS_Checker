@@ -1,0 +1,4 @@
+{
+  "_comment": "Recipes for BIOS files that must be assembled from components. Each recipe defines the binary layout and sources. The web app fetches components from source URLs and concatenates them in-browser.",
+  "entries": []
+}

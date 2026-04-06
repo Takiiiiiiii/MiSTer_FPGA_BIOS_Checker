@@ -1,0 +1,13 @@
+{
+  "_comment": "Hand-curated BIOS entries for cores that (a) genuinely require BIOS in MiSTer, (b) are NOT already in BiosDB, and (c) have a verifiable MD5 from a public DAT (MAME/MESS/No-Intro/Redump). Each entry must cite its source. Contribute additions via PR.",
+  "_schema": {
+    "core": "MiSTer core name (matches /media/fat/games/<core>/ directory)",
+    "filename": "EXACT filename MiSTer's core looks for (usually boot.rom / boot0.rom — NOT the BIOS's native name)",
+    "size": "expected file size in bytes",
+    "md5": "lowercase hex MD5 hash of the correctly-renamed file",
+    "md5_source": "where this hash came from (mame, no-intro, redump, mister-core-readme, etc.)",
+    "notes": "what this BIOS is / when it's needed",
+    "required": "true if core will not boot without this, false if optional"
+  },
+  "entries": []
+}
