@@ -98,11 +98,14 @@ for line in $ENTRIES; do
     expected_size=$(echo "$line" | cut -d'|' -f4)
     expected_md5=$(echo "$line" | cut -d'|' -f5)
     full_path="$GAMES_DIR/$rel"
+    alt="${core}.rom"
+    alt_path="/media/fat/games/bootrom/$alt"
 
     if [ ! -f "$full_path" ]; then
-        missing_list="$missing_list$core|$filename|$rel|$expected_size|$expected_md5
-"
-        continue
+        if [ ! -f "$alt_path" ]; then
+            missing_list="$missing_list$core|$filename|$rel|$expected_size|$expected_md5"
+            continue
+        fi
     fi
 
     actual_md5=$(md5sum "$full_path" 2>/dev/null | cut -d' ' -f1)
