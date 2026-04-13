@@ -1,6 +1,6 @@
 # MiSTer FPGA BIOS List
 
-_Generated 2026-04-06 from [ajgowans/BiosDB_MiSTer](https://github.com/ajgowans/BiosDB_MiSTer) @ 2026-04-01_
+_Generated 2026-04-13 from [ajgowans/BiosDB_MiSTer](https://github.com/ajgowans/BiosDB_MiSTer) @ 2026-04-12_
 
 ## Summary
 
@@ -130,7 +130,7 @@ Target directory: `/media/fat/games/Jaguar/`
 | File | Size | MD5 | Notes |
 |---|---:|---|---|
 | `boot.rom` | 131,072 | `6e844759720226e58d55ecaf33608a13` | [archive.org](https://archive.org/download/mister_bios_db/Jaguar.zip/boot.rom) |
-| `boot1.rom` | 262,144 | `948447d009b89b51e72b17e80c470b81` | [archive.org](https://archive.org/download/mister_bios_db/Jaguar.zip/boot1.rom) |
+| `boot1.rom` | 262,144 | `18f0741bdb8bb9b6bb99393cb90426a2` | [archive.org](https://archive.org/download/mister_bios_db/Jaguar.zip/boot1.rom) |
 | `boot2.rom` | 131,072 | `4af00f1c26898cf04585e1693d25faba` | [archive.org](https://archive.org/download/mister_bios_db/Jaguar.zip/boot2.rom) |
 
 ### MegaCD

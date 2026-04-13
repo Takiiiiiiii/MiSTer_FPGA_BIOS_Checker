@@ -327,7 +327,7 @@
       "filename": "boot1.rom",
       "target_path": "games/Jaguar/boot1.rom",
       "size": 262144,
-      "md5": "948447d009b89b51e72b17e80c470b81",
+      "md5": "18f0741bdb8bb9b6bb99393cb90426a2",
       "url": "https://archive.org/download/mister_bios_db/Jaguar.zip/boot1.rom",
       "tags": [
         "jaguar"

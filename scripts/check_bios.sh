@@ -1,6 +1,6 @@
 #!/bin/sh
 # check_bios.sh - MiSTer BIOS scanner
-# 58 BIOS entries, last updated 2026-04-06
+# 58 BIOS entries, last updated 2026-04-13
 #
 # Checks your MiSTer SD card for missing or mismatched BIOS files
 # and writes a report to /media/fat/bios_report.txt.
@@ -36,7 +36,7 @@ Intellivision|boot2.rom|Intellivision/boot2.rom|2048|d5530f74681ec6e0f282dab42e6
 Intellivision|boot3.rom|Intellivision/boot3.rom|24576|2e72a9a2b897d330a35c8b07a6146c52
 Interact|boot.rom|Interact/boot.rom|2048|aa9fb0e9697a009dfb9d876351dd8f48
 Jaguar|boot.rom|Jaguar/boot.rom|131072|6e844759720226e58d55ecaf33608a13
-Jaguar|boot1.rom|Jaguar/boot1.rom|262144|948447d009b89b51e72b17e80c470b81
+Jaguar|boot1.rom|Jaguar/boot1.rom|262144|18f0741bdb8bb9b6bb99393cb90426a2
 Jaguar|boot2.rom|Jaguar/boot2.rom|131072|4af00f1c26898cf04585e1693d25faba
 MegaCD|boot.rom|MegaCD/boot.rom|131072|14db9657bbaa6fbb9249752424dc0ce4
 MegaCD|cd_bios.rom|MegaCD/Europe/cd_bios.rom|131072|9b562ebf2d095bf1dabadbc1881f519a
