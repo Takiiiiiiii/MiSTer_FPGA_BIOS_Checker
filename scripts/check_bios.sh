@@ -1,6 +1,6 @@
 #!/bin/sh
 # check_bios.sh - MiSTer BIOS scanner
-# 58 BIOS entries, last updated 2026-04-13
+# 60 BIOS entries, last updated 2026-04-20
 #
 # Checks your MiSTer SD card for missing or mismatched BIOS files
 # and writes a report to /media/fat/bios_report.txt.
@@ -17,6 +17,8 @@ REPORT="${REPORT:-/media/fat/bios_report.txt}"
 ENTRIES="
 3DO|boot.rom|3DO/boot.rom|1048576|f47264dd47fe30f73ab3c010015c155b
 3DO|kanji.rom|3DO/kanji.rom|1048576|c23fb5d5e6bb1c240d02cf968972be37
+Apple-IIgs|boot.rom|Apple-IIgs/boot.rom|262144|ba89edf2729a28a17cd9e0f7a0ac9a39
+Apple-IIgs|boot1.rom|Apple-IIgs/boot1.rom|131072|20a0334c447cb069a040ae5be1d938df
 Astrocade|boot.rom|Astrocade/boot.rom|8192|7d25a26e5c4841b364cfe6b1735eaf03
 AtariLynx|boot.rom|AtariLynx/boot.rom|512|fcd403db69f54290b51035d82f835e7b
 Casio_PV-2000|boot0.rom|Casio_PV-2000/boot0.rom|16384|558540c5c6f776d88a897f2f3b8fec8f

@@ -33,6 +33,38 @@
       "retrobios_name": "panafz1j-kanji.bin"
     },
     {
+      "core": "Apple-IIgs",
+      "filename": "boot.rom",
+      "target_path": "games/Apple-IIgs/boot.rom",
+      "size": 262144,
+      "md5": "ba89edf2729a28a17cd9e0f7a0ac9a39",
+      "url": "https://archive.org/download/mister_bios_db/AppleIIGS.zip/AppleIIGS%2Fboot.rom",
+      "tags": [
+        "appleiigs"
+      ],
+      "source": "biosdb",
+      "notes": "",
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Apple/Apple%20II/apple2gs.rom",
+      "retrobios_name": "apple2gs.rom"
+    },
+    {
+      "core": "Apple-IIgs",
+      "filename": "boot1.rom",
+      "target_path": "games/Apple-IIgs/boot1.rom",
+      "size": 131072,
+      "md5": "20a0334c447cb069a040ae5be1d938df",
+      "url": "https://archive.org/download/mister_bios_db/AppleIIGS.zip/AppleIIGS%2Fboot1.rom",
+      "tags": [
+        "appleiigs"
+      ],
+      "source": "biosdb",
+      "notes": "",
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Apple/Apple%20IIGS/ROM",
+      "retrobios_name": "ROM"
+    },
+    {
       "core": "Astrocade",
       "filename": "boot.rom",
       "target_path": "games/Astrocade/boot.rom",
@@ -314,7 +346,7 @@
       "target_path": "games/Jaguar/boot.rom",
       "size": 131072,
       "md5": "6e844759720226e58d55ecaf33608a13",
-      "url": "https://archive.org/download/mister_bios_db/Jaguar.zip/boot.rom",
+      "url": "https://archive.org/download/mister_bios_db/Jaguar.zip/Jaguar%2Fboot.rom",
       "tags": [
         "jaguar"
       ],
@@ -328,7 +360,7 @@
       "target_path": "games/Jaguar/boot1.rom",
       "size": 262144,
       "md5": "18f0741bdb8bb9b6bb99393cb90426a2",
-      "url": "https://archive.org/download/mister_bios_db/Jaguar.zip/boot1.rom",
+      "url": "https://archive.org/download/mister_bios_db/Jaguar.zip/Jaguar%2Fboot1.rom",
       "tags": [
         "jaguar"
       ],
@@ -342,7 +374,7 @@
       "target_path": "games/Jaguar/boot2.rom",
       "size": 131072,
       "md5": "4af00f1c26898cf04585e1693d25faba",
-      "url": "https://archive.org/download/mister_bios_db/Jaguar.zip/boot2.rom",
+      "url": "https://archive.org/download/mister_bios_db/Jaguar.zip/Jaguar%2Fboot2.rom",
       "tags": [
         "jaguar"
       ],

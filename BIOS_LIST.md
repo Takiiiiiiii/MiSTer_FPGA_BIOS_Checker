@@ -1,13 +1,13 @@
 # MiSTer FPGA BIOS List
 
-_Generated 2026-04-13 from [ajgowans/BiosDB_MiSTer](https://github.com/ajgowans/BiosDB_MiSTer) @ 2026-04-12_
+_Generated 2026-04-20 from [ajgowans/BiosDB_MiSTer](https://github.com/ajgowans/BiosDB_MiSTer) @ 2026-04-13_
 
 ## Summary
 
-- **58** total entries across **31** cores
-- 58 from BiosDB upstream
+- **60** total entries across **32** cores
+- 60 from BiosDB upstream
 - 0 flagged gap entries (needs community-verified hash)
-- 31 entries have a mirror in [retrobios](https://github.com/Abdess/retrobios) (2nd download source)
+- 33 entries have a mirror in [retrobios](https://github.com/Abdess/retrobios) (2nd download source)
 
 ## How to use
 
@@ -27,6 +27,15 @@ Target directory: `/media/fat/games/3DO/`
 |---|---:|---|---|
 | `boot.rom` | 1,048,576 | `f47264dd47fe30f73ab3c010015c155b` | [archive.org](https://archive.org/download/mister_bios_db/3DO.zip/boot.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/3DO%20Company/3DO/panafz1.bin) |
 | `kanji.rom` | 1,048,576 | `c23fb5d5e6bb1c240d02cf968972be37` | [archive.org](https://archive.org/download/mister_bios_db/3DO.zip/kanji.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/3DO%20Company/3DO/panafz1j-kanji.bin) |
+
+### Apple-IIgs
+
+Target directory: `/media/fat/games/Apple-IIgs/`
+
+| File | Size | MD5 | Notes |
+|---|---:|---|---|
+| `boot.rom` | 262,144 | `ba89edf2729a28a17cd9e0f7a0ac9a39` | [archive.org](https://archive.org/download/mister_bios_db/AppleIIGS.zip/AppleIIGS%2Fboot.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Apple/Apple%20II/apple2gs.rom) |
+| `boot1.rom` | 131,072 | `20a0334c447cb069a040ae5be1d938df` | [archive.org](https://archive.org/download/mister_bios_db/AppleIIGS.zip/AppleIIGS%2Fboot1.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Apple/Apple%20IIGS/ROM) |
 
 ### Astrocade
 
@@ -129,9 +138,9 @@ Target directory: `/media/fat/games/Jaguar/`
 
 | File | Size | MD5 | Notes |
 |---|---:|---|---|
-| `boot.rom` | 131,072 | `6e844759720226e58d55ecaf33608a13` | [archive.org](https://archive.org/download/mister_bios_db/Jaguar.zip/boot.rom) |
-| `boot1.rom` | 262,144 | `18f0741bdb8bb9b6bb99393cb90426a2` | [archive.org](https://archive.org/download/mister_bios_db/Jaguar.zip/boot1.rom) |
-| `boot2.rom` | 131,072 | `4af00f1c26898cf04585e1693d25faba` | [archive.org](https://archive.org/download/mister_bios_db/Jaguar.zip/boot2.rom) |
+| `boot.rom` | 131,072 | `6e844759720226e58d55ecaf33608a13` | [archive.org](https://archive.org/download/mister_bios_db/Jaguar.zip/Jaguar%2Fboot.rom) |
+| `boot1.rom` | 262,144 | `18f0741bdb8bb9b6bb99393cb90426a2` | [archive.org](https://archive.org/download/mister_bios_db/Jaguar.zip/Jaguar%2Fboot1.rom) |
+| `boot2.rom` | 131,072 | `4af00f1c26898cf04585e1693d25faba` | [archive.org](https://archive.org/download/mister_bios_db/Jaguar.zip/Jaguar%2Fboot2.rom) |
 
 ### MegaCD
 
