@@ -10,8 +10,11 @@
 #     https://raw.githubusercontent.com/Takiiiiiii/MiSTerFPGA-BIOS/main/scripts/check_bios.sh
 #   sh /media/fat/Scripts/check_bios.sh
 
-GAMES_DIR="${GAMES_DIR:-/media/fat/games}"
-REPORT="${REPORT:-/media/fat/bios_report.txt}"
+# 20260406: Add bootrom fallback with /games priority (Tonton)
+
+MIST="/media/fat"
+GAMES_DIR="${GAMES_DIR:-$MIST/games}"
+REPORT="${REPORT:-$MIST/bios_report.txt}"
 
 # Format: "<core>|<filename>|<target_path_relative_to_games>|<size>|<md5>"
 ENTRIES="
@@ -100,14 +103,20 @@ for line in $ENTRIES; do
     expected_size=$(echo "$line" | cut -d'|' -f4)
     expected_md5=$(echo "$line" | cut -d'|' -f5)
     full_path="$GAMES_DIR/$rel"
+    alt="${core}.rom"
+    alt_path="$MIST/bootrom/$alt"
+    check_path="$full_path"
 
     if [ ! -f "$full_path" ]; then
-        missing_list="$missing_list$core|$filename|$rel|$expected_size|$expected_md5
-"
-        continue
+        check_path="$alt_path"
+        if [ ! -f "$alt_path" ]; then
+            missing_list="$missing_list$core|$filename|$rel|$expected_size|$expected_md5
+            "
+            continue
+        fi
     fi
 
-    actual_md5=$(md5sum "$full_path" 2>/dev/null | cut -d' ' -f1)
+    actual_md5=$(md5sum "$check_path" 2>/dev/null | cut -d' ' -f1)
     if [ "$actual_md5" = "$expected_md5" ]; then
         present_list="$present_list$core|$filename
 "
