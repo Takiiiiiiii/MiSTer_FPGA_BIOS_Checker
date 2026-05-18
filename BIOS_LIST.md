@@ -1,11 +1,11 @@
 # MiSTer FPGA BIOS List
 
-_Generated 2026-05-11 from [ajgowans/BiosDB_MiSTer](https://github.com/ajgowans/BiosDB_MiSTer) @ 2026-04-13_
+_Generated 2026-05-18 from [ajgowans/BiosDB_MiSTer](https://github.com/ajgowans/BiosDB_MiSTer) @ 2026-05-17_
 
 ## Summary
 
-- **60** total entries across **32** cores
-- 60 from BiosDB upstream
+- **61** total entries across **33** cores
+- 61 from BiosDB upstream
 - 0 flagged gap entries (needs community-verified hash)
 - 33 entries have a mirror in [retrobios](https://github.com/Abdess/retrobios) (2nd download source)
 
@@ -191,6 +191,14 @@ Target directory: `/media/fat/games/NeoGeo-CD/`
 | `neocd.bin` | 524,288 | `f39572af7584cb5b3f70ae8cc848aba2` | [archive.org](https://archive.org/download/mister_bios_db/NeoGeoCD.zip/neocd.bin)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/SNK/Neo%20Geo%20CD/neocd.bin) |
 | `top-sp1.bin` | 524,288 | `122aee210324c72e8a11116e6ef9c0d0` | [archive.org](https://archive.org/download/mister_bios_db/NeoGeoCD.zip/top-sp1.bin)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/SNK/Neo%20Geo%20CD/top-sp1.bin) |
 | `uni-bioscd.rom` | 524,288 | `08ca8b2dba6662e8024f9e789711c6fc` | Extracting NeoGeo CD UniBios from http://unibios.free.fr<br>[archive.org](http://unibios.free.fr/download/uni-bioscd-33.zip)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/SNK/Neo%20Geo%20CD/uni-bioscd.rom) |
+
+### NeoGeoPocket
+
+Target directory: `/media/fat/games/NeoGeoPocket/`
+
+| File | Size | MD5 | Notes |
+|---|---:|---|---|
+| `boot.rom` | 65,536 | `43d0d53c69c12cc0d28f197717a1bb06` | [archive.org](https://archive.org/download/mister_bios_db/NeoGeoPocket.zip/boot.rom) |
 
 ### NES
 

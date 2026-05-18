@@ -1,6 +1,6 @@
 #!/bin/sh
 # check_bios.sh - MiSTer BIOS scanner
-# 60 BIOS entries, last updated 2026-05-11
+# 61 BIOS entries, last updated 2026-05-18
 #
 # Checks your MiSTer SD card for missing or mismatched BIOS files
 # and writes a report to /media/fat/bios_report.txt.
@@ -55,6 +55,7 @@ NEOGEO|uni-bios.rom|NEOGEO/uni-bios.rom|131072|4f0aeda8d2d145f596826b62d563c4ef
 NeoGeo-CD|neocd.bin|NeoGeo-CD/neocd.bin|524288|f39572af7584cb5b3f70ae8cc848aba2
 NeoGeo-CD|top-sp1.bin|NeoGeo-CD/top-sp1.bin|524288|122aee210324c72e8a11116e6ef9c0d0
 NeoGeo-CD|uni-bioscd.rom|NeoGeo-CD/uni-bioscd.rom|524288|08ca8b2dba6662e8024f9e789711c6fc
+NeoGeoPocket|boot.rom|NeoGeoPocket/boot.rom|65536|43d0d53c69c12cc0d28f197717a1bb06
 NES|boot0.rom|NES/boot0.rom|8192|ca30b50f880eb660a320674ed365ef7a
 PC8801|boot.rom|PC8801/boot.rom|393216|f1ce4d5f83717093982e5f75516b8f3c
 PocketChallengeV2|boot.rom|PocketChallengeV2/boot.rom|4096|54b915694731cc22e07d3fb8a00ee2db
