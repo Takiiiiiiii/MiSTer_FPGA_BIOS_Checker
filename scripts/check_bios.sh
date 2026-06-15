@@ -1,6 +1,6 @@
 #!/bin/sh
 # check_bios.sh - MiSTer BIOS scanner
-# 61 BIOS entries, last updated 2026-06-08
+# 61 BIOS entries, last updated 2026-06-15
 #
 # Checks your MiSTer SD card for missing or mismatched BIOS files
 # and writes a report to /media/fat/bios_report.txt.
