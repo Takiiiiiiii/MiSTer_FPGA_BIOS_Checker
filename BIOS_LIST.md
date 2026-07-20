@@ -1,11 +1,11 @@
 # MiSTer FPGA BIOS List
 
-_Generated 2026-07-13 from [ajgowans/BiosDB_MiSTer](https://github.com/ajgowans/BiosDB_MiSTer) @ 2026-05-17_
+_Generated 2026-07-20 from [ajgowans/BiosDB_MiSTer](https://github.com/ajgowans/BiosDB_MiSTer) @ 2026-07-16_
 
 ## Summary
 
-- **61** total entries across **33** cores
-- 61 from BiosDB upstream
+- **62** total entries across **34** cores
+- 62 from BiosDB upstream
 - 0 flagged gap entries (needs community-verified hash)
 - 33 entries have a mirror in [retrobios](https://github.com/Abdess/retrobios) (2nd download source)
 
@@ -67,9 +67,9 @@ Target directory: `/media/fat/games/CD-i/`
 
 | File | Size | MD5 | Notes |
 |---|---:|---|---|
-| `boot0.rom` | 524,288 | `2969341396aa61e0143dc2351aaa6ef6` | [archive.org](https://archive.org/download/mister_bios_db/CD-i.zip/CD-i%2Fboot0.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Philips/CD-i/cdi200.rom) |
-| `boot1.rom` | 8,192 | `3d20cf7550f1b723158b42a1fd5bac62` | [archive.org](https://archive.org/download/mister_bios_db/CD-i.zip/CD-i%2Fboot1.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Philips/CD-i/zx405042p__cdi_slave_2.0__b43t__zzmk9213.mc68hc705c8a_withtestrom.7206) |
-| `boot2.rom` | 131,072 | `9694c466f9b65c1990a81b7a6280546b` | [archive.org](https://archive.org/download/mister_bios_db/CD-i.zip/CD-i%2Fboot2.rom) |
+| `boot0.rom` | 524,288 | `ac0d468be366779c9df633be98da250a` | [archive.org](https://archive.org/download/mister_bios_db/CD-i.zip/boot0.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Philips/CD-i/cdi220b.rom) |
+| `boot1.rom` | 8,192 | `3d20cf7550f1b723158b42a1fd5bac62` | [archive.org](https://archive.org/download/mister_bios_db/CD-i.zip/boot1.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Philips/CD-i/zx405042p__cdi_slave_2.0__b43t__zzmk9213.mc68hc705c8a_withtestrom.7206) |
+| `boot2.rom` | 131,072 | `9694c466f9b65c1990a81b7a6280546b` | [archive.org](https://archive.org/download/mister_bios_db/CD-i.zip/boot2.rom) |
 
 ### COCO3
 
@@ -104,6 +104,14 @@ Target directory: `/media/fat/games/GAMEBOY/`
 | File | Size | MD5 | Notes |
 |---|---:|---|---|
 | `boot1.rom` | 2,304 | `dbfce9db9deaa2567f6a84fde55f9680` | [archive.org](https://archive.org/download/mister_bios_db/Gameboy.zip/GBC_boot_ROM.gb)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Nintendo/Game%20Boy%20Color/GBC_cgb.bin) |
+
+### GameCom
+
+Target directory: `/media/fat/games/GameCom/`
+
+| File | Size | MD5 | Notes |
+|---|---:|---|---|
+| `boot.rom` | 262,144 | `3f2178d717dd309ed7424d49ef92987f` | [archive.org](https://archive.org/download/mister_bios_db/GameCom.zip/GameCom%20External%20BIOS%20%28Kitrinx%20v0.03%29.bin) |
 
 ### GBA
 

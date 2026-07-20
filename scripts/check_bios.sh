@@ -1,6 +1,6 @@
 #!/bin/sh
 # check_bios.sh - MiSTer BIOS scanner
-# 61 BIOS entries, last updated 2026-07-13
+# 62 BIOS entries, last updated 2026-07-20
 #
 # Checks your MiSTer SD card for missing or mismatched BIOS files
 # and writes a report to /media/fat/bios_report.txt.
@@ -22,7 +22,7 @@ Apple-IIgs|boot1.rom|Apple-IIgs/boot1.rom|131072|20a0334c447cb069a040ae5be1d938d
 Astrocade|boot.rom|Astrocade/boot.rom|8192|7d25a26e5c4841b364cfe6b1735eaf03
 AtariLynx|boot.rom|AtariLynx/boot.rom|512|fcd403db69f54290b51035d82f835e7b
 Casio_PV-2000|boot0.rom|Casio_PV-2000/boot0.rom|16384|558540c5c6f776d88a897f2f3b8fec8f
-CD-i|boot0.rom|CD-i/boot0.rom|524288|2969341396aa61e0143dc2351aaa6ef6
+CD-i|boot0.rom|CD-i/boot0.rom|524288|ac0d468be366779c9df633be98da250a
 CD-i|boot1.rom|CD-i/boot1.rom|8192|3d20cf7550f1b723158b42a1fd5bac62
 CD-i|boot2.rom|CD-i/boot2.rom|131072|9694c466f9b65c1990a81b7a6280546b
 COCO3|boot0.rom|COCO3/boot0.rom|32768|7233c6c429f3ce1c7392f28a933e0b6f
@@ -31,6 +31,7 @@ COCO3|boot2.rom|COCO3/boot2.rom|8192|171fb7a5d3b808565295b45c773abaaf
 CreatiVision|boot.rom|CreatiVision/boot.rom|16384|4dfadfb1158f84e2df2b85b13f303986
 Gamate|boot.rom|Gamate/boot.rom|4096|ef67993a94503c4b7798b5901c7dda52
 GAMEBOY|boot1.rom|GAMEBOY/boot1.rom|2304|dbfce9db9deaa2567f6a84fde55f9680
+GameCom|boot.rom|GameCom/boot.rom|262144|3f2178d717dd309ed7424d49ef92987f
 GBA|boot.rom|GBA/boot.rom|16384|a860e8c0b6d573d191e4ec7db1b1e4f6
 Intellivision|boot0.rom|Intellivision/boot0.rom|8192|62e761035cb657903761800f4437b8af
 Intellivision|boot1.rom|Intellivision/boot1.rom|2048|0cd5946c6473e42e8e4c2137785e427f

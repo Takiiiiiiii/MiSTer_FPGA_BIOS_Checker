@@ -113,16 +113,16 @@
       "filename": "boot0.rom",
       "target_path": "games/CD-i/boot0.rom",
       "size": 524288,
-      "md5": "2969341396aa61e0143dc2351aaa6ef6",
-      "url": "https://archive.org/download/mister_bios_db/CD-i.zip/CD-i%2Fboot0.rom",
+      "md5": "ac0d468be366779c9df633be98da250a",
+      "url": "https://archive.org/download/mister_bios_db/CD-i.zip/boot0.rom",
       "tags": [
         "cdi"
       ],
       "source": "biosdb",
       "notes": "",
       "status": "catalog",
-      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Philips/CD-i/cdi200.rom",
-      "retrobios_name": "cdi200.rom"
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Philips/CD-i/cdi220b.rom",
+      "retrobios_name": "cdi220b.rom"
     },
     {
       "core": "CD-i",
@@ -130,7 +130,7 @@
       "target_path": "games/CD-i/boot1.rom",
       "size": 8192,
       "md5": "3d20cf7550f1b723158b42a1fd5bac62",
-      "url": "https://archive.org/download/mister_bios_db/CD-i.zip/CD-i%2Fboot1.rom",
+      "url": "https://archive.org/download/mister_bios_db/CD-i.zip/boot1.rom",
       "tags": [
         "cdi"
       ],
@@ -146,7 +146,7 @@
       "target_path": "games/CD-i/boot2.rom",
       "size": 131072,
       "md5": "9694c466f9b65c1990a81b7a6280546b",
-      "url": "https://archive.org/download/mister_bios_db/CD-i.zip/CD-i%2Fboot2.rom",
+      "url": "https://archive.org/download/mister_bios_db/CD-i.zip/boot2.rom",
       "tags": [
         "cdi"
       ],
@@ -245,6 +245,20 @@
       "status": "catalog",
       "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Nintendo/Game%20Boy%20Color/GBC_cgb.bin",
       "retrobios_name": "GBC_cgb.bin"
+    },
+    {
+      "core": "GameCom",
+      "filename": "boot.rom",
+      "target_path": "games/GameCom/boot.rom",
+      "size": 262144,
+      "md5": "3f2178d717dd309ed7424d49ef92987f",
+      "url": "https://archive.org/download/mister_bios_db/GameCom.zip/GameCom%20External%20BIOS%20%28Kitrinx%20v0.03%29.bin",
+      "tags": [
+        "gamecom"
+      ],
+      "source": "biosdb",
+      "notes": "",
+      "status": "catalog"
     },
     {
       "core": "GBA",
