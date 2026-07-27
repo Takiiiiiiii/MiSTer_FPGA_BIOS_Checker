@@ -1,6 +1,6 @@
 # MiSTer FPGA BIOS List
 
-_Generated 2026-07-20 from [ajgowans/BiosDB_MiSTer](https://github.com/ajgowans/BiosDB_MiSTer) @ 2026-07-16_
+_Generated 2026-07-27 from [ajgowans/BiosDB_MiSTer](https://github.com/ajgowans/BiosDB_MiSTer) @ 2026-07-16_
 
 ## Summary
 
