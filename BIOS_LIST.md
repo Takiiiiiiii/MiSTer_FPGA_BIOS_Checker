@@ -1,13 +1,13 @@
 # MiSTer FPGA BIOS List
 
-_Generated 2026-07-27 from [ajgowans/BiosDB_MiSTer](https://github.com/ajgowans/BiosDB_MiSTer) @ 2026-07-16_
+_Generated 2026-08-03 from [ajgowans/BiosDB_MiSTer](https://github.com/ajgowans/BiosDB_MiSTer) @ 2026-07-27_
 
 ## Summary
 
-- **62** total entries across **34** cores
-- 62 from BiosDB upstream
+- **63** total entries across **34** cores
+- 63 from BiosDB upstream
 - 0 flagged gap entries (needs community-verified hash)
-- 33 entries have a mirror in [retrobios](https://github.com/Abdess/retrobios) (2nd download source)
+- 35 entries have a mirror in [retrobios](https://github.com/Abdess/retrobios) (2nd download source)
 
 ## How to use
 
@@ -175,8 +175,11 @@ Target directory: `/media/fat/games/N64/`
 
 | File | Size | MD5 | Notes |
 |---|---:|---|---|
-| `boot.rom` | 1,984 | `5c124e7948ada85da603a522782940d0` | [archive.org](https://archive.org/download/mister_bios_db/N64.zip/N64%2F%5BBIOS%5D%20Nintendo%2064%20-%20PIF%20%28Japan%2C%20USA%29.bin) |
-| `boot1.rom` | 1,984 | `d4232dc935cad0650ac2664d52281f3a` | [archive.org](https://archive.org/download/mister_bios_db/N64.zip/N64%2F%5BBIOS%5D%20Nintendo%2064%20-%20PIF%20%28Europe%29.bin) |
+| `boot.rom` | 1,984 | `5c124e7948ada85da603a522782940d0` | [archive.org](https://archive.org/download/mister_bios_db/N64.zip/boot.rom) |
+| `boot1.rom` | 1,984 | `d4232dc935cad0650ac2664d52281f3a` | [archive.org](https://archive.org/download/mister_bios_db/N64.zip/boot1.rom) |
+| `boot3.rom` | 4,194,304 | `8d3d9f294b6e174bc7b1d2fd1c727530` | [archive.org](https://archive.org/download/mister_bios_db/N64.zip/boot3.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Nintendo/64DD/64DD_IPL_v12_JPN.bin) |
+| `boot4.rom` | 4,194,304 | `aad37b1492886b892f1821f37fd3ae34` | [archive.org](https://archive.org/download/mister_bios_db/N64.zip/boot4.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Nintendo/64DD/64DD_IPL_DEV.bin) |
+| `boot5.rom` | 4,194,304 | `37c36e4286d36892a9fc70eafe4104be` | [archive.org](https://archive.org/download/mister_bios_db/N64.zip/boot5.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Nintendo/64DD/64DD_IPL_USA.bin) |
 
 ### NEOGEO
 
@@ -188,7 +191,6 @@ Target directory: `/media/fat/games/NEOGEO/`
 | `neo-epo.sp1` | 131,072 | `b11751ad42879c461d64ad2b7b2b0129` | [archive.org](https://archive.org/download/mister_bios_db/NeoGeo.zip/neo-epo.sp1-AES_BIOS) |
 | `sfix.sfix` | 131,072 | `aa2b5d0eae4158ffc0d7d63481c7830b` | [archive.org](https://archive.org/download/mister_bios_db/NeoGeo.zip/sfix.sfix) |
 | `sp-s2.sp1` | 131,072 | `2968f59f44bf328639aa79391aeeeab4` | [archive.org](https://archive.org/download/mister_bios_db/NeoGeo.zip/sp-s2.sp1-MVS_BIOS) |
-| `uni-bios.rom` | 131,072 | `4f0aeda8d2d145f596826b62d563c4ef` | Extracting NeoGeo UniBios from http://unibios.free.fr<br>[archive.org](http://unibios.free.fr/download/uni-bios-40.zip) |
 
 ### NeoGeo-CD
 
@@ -198,7 +200,6 @@ Target directory: `/media/fat/games/NeoGeo-CD/`
 |---|---:|---|---|
 | `neocd.bin` | 524,288 | `f39572af7584cb5b3f70ae8cc848aba2` | [archive.org](https://archive.org/download/mister_bios_db/NeoGeoCD.zip/neocd.bin)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/SNK/Neo%20Geo%20CD/neocd.bin) |
 | `top-sp1.bin` | 524,288 | `122aee210324c72e8a11116e6ef9c0d0` | [archive.org](https://archive.org/download/mister_bios_db/NeoGeoCD.zip/top-sp1.bin)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/SNK/Neo%20Geo%20CD/top-sp1.bin) |
-| `uni-bioscd.rom` | 524,288 | `08ca8b2dba6662e8024f9e789711c6fc` | Extracting NeoGeo CD UniBios from http://unibios.free.fr<br>[archive.org](http://unibios.free.fr/download/uni-bioscd-33.zip)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/SNK/Neo%20Geo%20CD/uni-bioscd.rom) |
 
 ### NeoGeoPocket
 

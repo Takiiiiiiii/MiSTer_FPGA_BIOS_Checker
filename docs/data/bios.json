@@ -483,7 +483,7 @@
       "target_path": "games/N64/boot.rom",
       "size": 1984,
       "md5": "5c124e7948ada85da603a522782940d0",
-      "url": "https://archive.org/download/mister_bios_db/N64.zip/N64%2F%5BBIOS%5D%20Nintendo%2064%20-%20PIF%20%28Japan%2C%20USA%29.bin",
+      "url": "https://archive.org/download/mister_bios_db/N64.zip/boot.rom",
       "tags": [
         "n64"
       ],
@@ -497,13 +497,61 @@
       "target_path": "games/N64/boot1.rom",
       "size": 1984,
       "md5": "d4232dc935cad0650ac2664d52281f3a",
-      "url": "https://archive.org/download/mister_bios_db/N64.zip/N64%2F%5BBIOS%5D%20Nintendo%2064%20-%20PIF%20%28Europe%29.bin",
+      "url": "https://archive.org/download/mister_bios_db/N64.zip/boot1.rom",
       "tags": [
         "n64"
       ],
       "source": "biosdb",
       "notes": "",
       "status": "catalog"
+    },
+    {
+      "core": "N64",
+      "filename": "boot3.rom",
+      "target_path": "games/N64/boot3.rom",
+      "size": 4194304,
+      "md5": "8d3d9f294b6e174bc7b1d2fd1c727530",
+      "url": "https://archive.org/download/mister_bios_db/N64.zip/boot3.rom",
+      "tags": [
+        "n64"
+      ],
+      "source": "biosdb",
+      "notes": "",
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Nintendo/64DD/64DD_IPL_v12_JPN.bin",
+      "retrobios_name": "64DD_IPL_v12_JPN.bin"
+    },
+    {
+      "core": "N64",
+      "filename": "boot4.rom",
+      "target_path": "games/N64/boot4.rom",
+      "size": 4194304,
+      "md5": "aad37b1492886b892f1821f37fd3ae34",
+      "url": "https://archive.org/download/mister_bios_db/N64.zip/boot4.rom",
+      "tags": [
+        "n64"
+      ],
+      "source": "biosdb",
+      "notes": "",
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Nintendo/64DD/64DD_IPL_DEV.bin",
+      "retrobios_name": "64DD_IPL_DEV.bin"
+    },
+    {
+      "core": "N64",
+      "filename": "boot5.rom",
+      "target_path": "games/N64/boot5.rom",
+      "size": 4194304,
+      "md5": "37c36e4286d36892a9fc70eafe4104be",
+      "url": "https://archive.org/download/mister_bios_db/N64.zip/boot5.rom",
+      "tags": [
+        "n64"
+      ],
+      "source": "biosdb",
+      "notes": "",
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Nintendo/64DD/64DD_IPL_USA.bin",
+      "retrobios_name": "64DD_IPL_USA.bin"
     },
     {
       "core": "NEOGEO",
@@ -564,20 +612,6 @@
       "status": "catalog"
     },
     {
-      "core": "NEOGEO",
-      "filename": "uni-bios.rom",
-      "target_path": "games/NEOGEO/uni-bios.rom",
-      "size": 131072,
-      "md5": "4f0aeda8d2d145f596826b62d563c4ef",
-      "url": "http://unibios.free.fr/download/uni-bios-40.zip",
-      "tags": [
-        "neogeo"
-      ],
-      "source": "biosdb-zip",
-      "notes": "Extracting NeoGeo UniBios from http://unibios.free.fr",
-      "status": "catalog"
-    },
-    {
       "core": "NeoGeo-CD",
       "filename": "neocd.bin",
       "target_path": "games/NeoGeo-CD/neocd.bin",
@@ -608,22 +642,6 @@
       "status": "catalog",
       "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/SNK/Neo%20Geo%20CD/top-sp1.bin",
       "retrobios_name": "top-sp1.bin"
-    },
-    {
-      "core": "NeoGeo-CD",
-      "filename": "uni-bioscd.rom",
-      "target_path": "games/NeoGeo-CD/uni-bioscd.rom",
-      "size": 524288,
-      "md5": "08ca8b2dba6662e8024f9e789711c6fc",
-      "url": "http://unibios.free.fr/download/uni-bioscd-33.zip",
-      "tags": [
-        "neogeo"
-      ],
-      "source": "biosdb-zip",
-      "notes": "Extracting NeoGeo CD UniBios from http://unibios.free.fr",
-      "status": "catalog",
-      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/SNK/Neo%20Geo%20CD/uni-bioscd.rom",
-      "retrobios_name": "uni-bioscd.rom"
     },
     {
       "core": "NeoGeoPocket",

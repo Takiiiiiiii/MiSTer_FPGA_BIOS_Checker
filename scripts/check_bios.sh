@@ -1,6 +1,6 @@
 #!/bin/sh
 # check_bios.sh - MiSTer BIOS scanner
-# 62 BIOS entries, last updated 2026-07-27
+# 63 BIOS entries, last updated 2026-08-03
 #
 # Checks your MiSTer SD card for missing or mismatched BIOS files
 # and writes a report to /media/fat/bios_report.txt.
@@ -48,14 +48,15 @@ MegaCD|cd_bios.rom|MegaCD/USA/cd_bios.rom|131072|310a9081d2edf2d316ab38813136725
 MSX1|boot.rom|MSX1/boot.rom|32768|a0452dbf5ace7d2e49d0a8029efed09a
 N64|boot.rom|N64/boot.rom|1984|5c124e7948ada85da603a522782940d0
 N64|boot1.rom|N64/boot1.rom|1984|d4232dc935cad0650ac2664d52281f3a
+N64|boot3.rom|N64/boot3.rom|4194304|8d3d9f294b6e174bc7b1d2fd1c727530
+N64|boot4.rom|N64/boot4.rom|4194304|aad37b1492886b892f1821f37fd3ae34
+N64|boot5.rom|N64/boot5.rom|4194304|37c36e4286d36892a9fc70eafe4104be
 NEOGEO|000-lo.lo|NEOGEO/000-lo.lo|131072|fc7599f3f871578fe9a0453662d1c966
 NEOGEO|neo-epo.sp1|NEOGEO/neo-epo.sp1|131072|b11751ad42879c461d64ad2b7b2b0129
 NEOGEO|sfix.sfix|NEOGEO/sfix.sfix|131072|aa2b5d0eae4158ffc0d7d63481c7830b
 NEOGEO|sp-s2.sp1|NEOGEO/sp-s2.sp1|131072|2968f59f44bf328639aa79391aeeeab4
-NEOGEO|uni-bios.rom|NEOGEO/uni-bios.rom|131072|4f0aeda8d2d145f596826b62d563c4ef
 NeoGeo-CD|neocd.bin|NeoGeo-CD/neocd.bin|524288|f39572af7584cb5b3f70ae8cc848aba2
 NeoGeo-CD|top-sp1.bin|NeoGeo-CD/top-sp1.bin|524288|122aee210324c72e8a11116e6ef9c0d0
-NeoGeo-CD|uni-bioscd.rom|NeoGeo-CD/uni-bioscd.rom|524288|08ca8b2dba6662e8024f9e789711c6fc
 NeoGeoPocket|boot.rom|NeoGeoPocket/boot.rom|65536|43d0d53c69c12cc0d28f197717a1bb06
 NES|boot0.rom|NES/boot0.rom|8192|ca30b50f880eb660a320674ed365ef7a
 PC8801|boot.rom|PC8801/boot.rom|393216|f1ce4d5f83717093982e5f75516b8f3c
