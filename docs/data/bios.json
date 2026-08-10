@@ -76,7 +76,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Bally/Astrocade/astro.bin",
+      "retrobios_name": "astro.bin"
     },
     {
       "core": "AtariLynx",
@@ -106,7 +108,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Casio/PV-2000/hn613128pc64.bin",
+      "retrobios_name": "hn613128pc64.bin"
     },
     {
       "core": "CD-i",
@@ -152,7 +156,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Philips/CD-i/vmpega_split.rom",
+      "retrobios_name": "vmpega_split.rom"
     },
     {
       "core": "COCO3",
@@ -214,7 +220,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/VTech/CreatiVision/laser2001.rom",
+      "retrobios_name": "laser2001.rom"
     },
     {
       "core": "Gamate",
@@ -228,7 +236,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Bit%20Corporation/Gamate/gamate_bios_umc.bin",
+      "retrobios_name": "gamate_bios_umc.bin"
     },
     {
       "core": "GAMEBOY",
@@ -258,7 +268,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Tiger/Game.com/GameCom%20External%20BIOS%20%28Kitrinx%20v0.03%29.bin",
+      "retrobios_name": "GameCom External BIOS (Kitrinx v0.03).bin"
     },
     {
       "core": "GBA",
@@ -352,7 +364,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Interact/Home%20Computer/interact.rom",
+      "retrobios_name": "interact.rom"
     },
     {
       "core": "Jaguar",
@@ -366,7 +380,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Atari/Jaguar/boot.rom",
+      "retrobios_name": "boot.rom"
     },
     {
       "core": "Jaguar",
@@ -380,7 +396,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Atari/Jaguar/boot1.rom",
+      "retrobios_name": "boot1.rom"
     },
     {
       "core": "Jaguar",
@@ -394,7 +412,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Atari/Jaguar/boot2.rom",
+      "retrobios_name": "boot2.rom"
     },
     {
       "core": "MegaCD",
@@ -408,7 +428,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Sega/Mega%20CD/US%20Sega%20CD%202%20%28Region%20Free%29%20930601%20l_oliveira.bin",
+      "retrobios_name": "US Sega CD 2 (Region Free) 930601 l_oliveira.bin"
     },
     {
       "core": "MegaCD",
@@ -424,8 +446,8 @@
       "source": "biosdb",
       "notes": "",
       "status": "catalog",
-      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Sega/Mega%20CD/eu_mcd2_9306.bin",
-      "retrobios_name": "eu_mcd2_9306.bin"
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Sega/Mega%20CD/eu_mcd2_9303.bin",
+      "retrobios_name": "eu_mcd2_9303.bin"
     },
     {
       "core": "MegaCD",
@@ -458,8 +480,8 @@
       "source": "biosdb",
       "notes": "",
       "status": "catalog",
-      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Sega/Mega%20CD/us_scd2_9306.bin",
-      "retrobios_name": "us_scd2_9306.bin"
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Sega/Mega%20CD/SegaCDBIOS9303.bin",
+      "retrobios_name": "SegaCDBIOS9303.bin"
     },
     {
       "core": "MSX1",
@@ -489,7 +511,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Nintendo/Nintendo%2064/boot.rom",
+      "retrobios_name": "boot.rom"
     },
     {
       "core": "N64",
@@ -503,7 +527,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Nintendo/Nintendo%2064/boot1.rom",
+      "retrobios_name": "boot1.rom"
     },
     {
       "core": "N64",
@@ -581,7 +607,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/SNK/Neo%20Geo/neo-epo.bin",
+      "retrobios_name": "neo-epo.bin"
     },
     {
       "core": "NEOGEO",
@@ -595,7 +623,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/SNK/Neo%20Geo/sfix.sfix",
+      "retrobios_name": "sfix.sfix"
     },
     {
       "core": "NEOGEO",
@@ -609,7 +639,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/SNK/Neo%20Geo/sp-s2.sp1",
+      "retrobios_name": "sp-s2.sp1"
     },
     {
       "core": "NeoGeo-CD",
@@ -655,7 +687,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/SNK/Neo%20Geo%20Pocket/boot.rom",
+      "retrobios_name": "boot.rom"
     },
     {
       "core": "NES",
@@ -670,8 +704,8 @@
       "source": "biosdb",
       "notes": "",
       "status": "catalog",
-      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Nintendo/Famicom%20Disk%20System/FDS_disksys-nintendo.rom",
-      "retrobios_name": "FDS_disksys-nintendo.rom"
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Arcade/FBNeo/fdsbios.nes",
+      "retrobios_name": "fdsbios.nes"
     },
     {
       "core": "PC8801",
@@ -685,7 +719,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/NEC/PC-88/PC8801%20MKII%20SR%20BIOS.rom",
+      "retrobios_name": "PC8801 MKII SR BIOS.rom"
     },
     {
       "core": "PocketChallengeV2",
@@ -699,7 +735,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Bandai/WonderSwan/bootrom.ws",
+      "retrobios_name": "bootrom.ws"
     },
     {
       "core": "PocketChallengeV2",
@@ -713,7 +751,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Bandai/WonderSwan/bootrom.wsc",
+      "retrobios_name": "bootrom.wsc"
     },
     {
       "core": "PokemonMini",
@@ -791,7 +831,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Sony/PlayStation/sbi.zip",
+      "retrobios_name": "sbi.zip"
     },
     {
       "core": "Saturn",
@@ -821,7 +863,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Epoch/Super%20Cassette%20Vision/boot.rom",
+      "retrobios_name": "boot.rom"
     },
     {
       "core": "SGB",
@@ -883,7 +927,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/NEC/PC%20Engine%20CD/Super%20CD%203.1.pce",
+      "retrobios_name": "Super CD 3.1.pce"
     },
     {
       "core": "TI-99_4A",
@@ -897,7 +943,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Texas%20Instruments/TI-99/boot0.rom",
+      "retrobios_name": "boot0.rom"
     },
     {
       "core": "WonderSwan",
@@ -911,7 +959,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Bandai/WonderSwan/bootrom.ws",
+      "retrobios_name": "bootrom.ws"
     },
     {
       "core": "WonderSwan",
@@ -925,7 +975,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Bandai/WonderSwan/bootrom.wsc",
+      "retrobios_name": "bootrom.wsc"
     },
     {
       "core": "WonderSwanColor",
@@ -939,7 +991,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Bandai/WonderSwan/bootrom.ws",
+      "retrobios_name": "bootrom.ws"
     },
     {
       "core": "WonderSwanColor",
@@ -953,7 +1007,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Bandai/WonderSwan/bootrom.wsc",
+      "retrobios_name": "bootrom.wsc"
     }
   ]
 }

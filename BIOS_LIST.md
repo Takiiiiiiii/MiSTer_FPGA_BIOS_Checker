@@ -1,13 +1,13 @@
 # MiSTer FPGA BIOS List
 
-_Generated 2026-08-03 from [ajgowans/BiosDB_MiSTer](https://github.com/ajgowans/BiosDB_MiSTer) @ 2026-07-27_
+_Generated 2026-08-10 from [ajgowans/BiosDB_MiSTer](https://github.com/ajgowans/BiosDB_MiSTer) @ 2026-07-27_
 
 ## Summary
 
 - **63** total entries across **34** cores
 - 63 from BiosDB upstream
 - 0 flagged gap entries (needs community-verified hash)
-- 35 entries have a mirror in [retrobios](https://github.com/Abdess/retrobios) (2nd download source)
+- 63 entries have a mirror in [retrobios](https://github.com/Abdess/retrobios) (2nd download source)
 
 ## How to use
 
@@ -43,7 +43,7 @@ Target directory: `/media/fat/games/Astrocade/`
 
 | File | Size | MD5 | Notes |
 |---|---:|---|---|
-| `boot.rom` | 8,192 | `7d25a26e5c4841b364cfe6b1735eaf03` | [archive.org](https://archive.org/download/mister_bios_db/Astrocade.zip/Bally%20Professional%20Arcade%2C%20Astrocade%20%273159%27%20BIOS%20%281978%29%28Bally%20Mfg.%20Corp.%29.bin) |
+| `boot.rom` | 8,192 | `7d25a26e5c4841b364cfe6b1735eaf03` | [archive.org](https://archive.org/download/mister_bios_db/Astrocade.zip/Bally%20Professional%20Arcade%2C%20Astrocade%20%273159%27%20BIOS%20%281978%29%28Bally%20Mfg.%20Corp.%29.bin)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Bally/Astrocade/astro.bin) |
 
 ### AtariLynx
 
@@ -59,7 +59,7 @@ Target directory: `/media/fat/games/Casio_PV-2000/`
 
 | File | Size | MD5 | Notes |
 |---|---:|---|---|
-| `boot0.rom` | 16,384 | `558540c5c6f776d88a897f2f3b8fec8f` | [archive.org](https://archive.org/download/mister_bios_db/Casio_PV-2000.zip/hn613128pc64.bin) |
+| `boot0.rom` | 16,384 | `558540c5c6f776d88a897f2f3b8fec8f` | [archive.org](https://archive.org/download/mister_bios_db/Casio_PV-2000.zip/hn613128pc64.bin)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Casio/PV-2000/hn613128pc64.bin) |
 
 ### CD-i
 
@@ -69,7 +69,7 @@ Target directory: `/media/fat/games/CD-i/`
 |---|---:|---|---|
 | `boot0.rom` | 524,288 | `ac0d468be366779c9df633be98da250a` | [archive.org](https://archive.org/download/mister_bios_db/CD-i.zip/boot0.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Philips/CD-i/cdi220b.rom) |
 | `boot1.rom` | 8,192 | `3d20cf7550f1b723158b42a1fd5bac62` | [archive.org](https://archive.org/download/mister_bios_db/CD-i.zip/boot1.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Philips/CD-i/zx405042p__cdi_slave_2.0__b43t__zzmk9213.mc68hc705c8a_withtestrom.7206) |
-| `boot2.rom` | 131,072 | `9694c466f9b65c1990a81b7a6280546b` | [archive.org](https://archive.org/download/mister_bios_db/CD-i.zip/boot2.rom) |
+| `boot2.rom` | 131,072 | `9694c466f9b65c1990a81b7a6280546b` | [archive.org](https://archive.org/download/mister_bios_db/CD-i.zip/boot2.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Philips/CD-i/vmpega_split.rom) |
 
 ### COCO3
 
@@ -87,7 +87,7 @@ Target directory: `/media/fat/games/CreatiVision/`
 
 | File | Size | MD5 | Notes |
 |---|---:|---|---|
-| `boot.rom` | 16,384 | `4dfadfb1158f84e2df2b85b13f303986` | [archive.org](https://archive.org/download/mister_bios_db/CreatiVision.zip/Laser_2001_Bootrom.rom) |
+| `boot.rom` | 16,384 | `4dfadfb1158f84e2df2b85b13f303986` | [archive.org](https://archive.org/download/mister_bios_db/CreatiVision.zip/Laser_2001_Bootrom.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/VTech/CreatiVision/laser2001.rom) |
 
 ### Gamate
 
@@ -95,7 +95,7 @@ Target directory: `/media/fat/games/Gamate/`
 
 | File | Size | MD5 | Notes |
 |---|---:|---|---|
-| `boot.rom` | 4,096 | `ef67993a94503c4b7798b5901c7dda52` | [archive.org](https://archive.org/download/mister_bios_db/Gamate.zip/Gamate/gamate_boot.rom) |
+| `boot.rom` | 4,096 | `ef67993a94503c4b7798b5901c7dda52` | [archive.org](https://archive.org/download/mister_bios_db/Gamate.zip/Gamate/gamate_boot.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Bit%20Corporation/Gamate/gamate_bios_umc.bin) |
 
 ### GAMEBOY
 
@@ -111,7 +111,7 @@ Target directory: `/media/fat/games/GameCom/`
 
 | File | Size | MD5 | Notes |
 |---|---:|---|---|
-| `boot.rom` | 262,144 | `3f2178d717dd309ed7424d49ef92987f` | [archive.org](https://archive.org/download/mister_bios_db/GameCom.zip/GameCom%20External%20BIOS%20%28Kitrinx%20v0.03%29.bin) |
+| `boot.rom` | 262,144 | `3f2178d717dd309ed7424d49ef92987f` | [archive.org](https://archive.org/download/mister_bios_db/GameCom.zip/GameCom%20External%20BIOS%20%28Kitrinx%20v0.03%29.bin)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Tiger/Game.com/GameCom%20External%20BIOS%20%28Kitrinx%20v0.03%29.bin) |
 
 ### GBA
 
@@ -138,7 +138,7 @@ Target directory: `/media/fat/games/Interact/`
 
 | File | Size | MD5 | Notes |
 |---|---:|---|---|
-| `boot.rom` | 2,048 | `aa9fb0e9697a009dfb9d876351dd8f48` | [archive.org](https://archive.org/download/mister_bios_db/Interact.zip/Interact_ROM.bin) |
+| `boot.rom` | 2,048 | `aa9fb0e9697a009dfb9d876351dd8f48` | [archive.org](https://archive.org/download/mister_bios_db/Interact.zip/Interact_ROM.bin)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Interact/Home%20Computer/interact.rom) |
 
 ### Jaguar
 
@@ -146,9 +146,9 @@ Target directory: `/media/fat/games/Jaguar/`
 
 | File | Size | MD5 | Notes |
 |---|---:|---|---|
-| `boot.rom` | 131,072 | `6e844759720226e58d55ecaf33608a13` | [archive.org](https://archive.org/download/mister_bios_db/Jaguar.zip/Jaguar%2Fboot.rom) |
-| `boot1.rom` | 262,144 | `18f0741bdb8bb9b6bb99393cb90426a2` | [archive.org](https://archive.org/download/mister_bios_db/Jaguar.zip/Jaguar%2Fboot1.rom) |
-| `boot2.rom` | 131,072 | `4af00f1c26898cf04585e1693d25faba` | [archive.org](https://archive.org/download/mister_bios_db/Jaguar.zip/Jaguar%2Fboot2.rom) |
+| `boot.rom` | 131,072 | `6e844759720226e58d55ecaf33608a13` | [archive.org](https://archive.org/download/mister_bios_db/Jaguar.zip/Jaguar%2Fboot.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Atari/Jaguar/boot.rom) |
+| `boot1.rom` | 262,144 | `18f0741bdb8bb9b6bb99393cb90426a2` | [archive.org](https://archive.org/download/mister_bios_db/Jaguar.zip/Jaguar%2Fboot1.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Atari/Jaguar/boot1.rom) |
+| `boot2.rom` | 131,072 | `4af00f1c26898cf04585e1693d25faba` | [archive.org](https://archive.org/download/mister_bios_db/Jaguar.zip/Jaguar%2Fboot2.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Atari/Jaguar/boot2.rom) |
 
 ### MegaCD
 
@@ -156,10 +156,10 @@ Target directory: `/media/fat/games/MegaCD/`
 
 | File | Size | MD5 | Notes |
 |---|---:|---|---|
-| `boot.rom` | 131,072 | `14db9657bbaa6fbb9249752424dc0ce4` | [archive.org](https://archive.org/download/mister_bios_db/MegaCD.zip/US%20Sega%20CD%202%20%28Region%20Free%29%20930601%20l_oliveira.bin) |
-| `cd_bios.rom` | 131,072 | `9b562ebf2d095bf1dabadbc1881f519a` | [archive.org](https://archive.org/download/mister_bios_db/MegaCD.zip/%5BBIOS%5D%20Mega-CD%202%20%28Europe%29%20%28v2.00%29.md)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Sega/Mega%20CD/eu_mcd2_9306.bin) |
+| `boot.rom` | 131,072 | `14db9657bbaa6fbb9249752424dc0ce4` | [archive.org](https://archive.org/download/mister_bios_db/MegaCD.zip/US%20Sega%20CD%202%20%28Region%20Free%29%20930601%20l_oliveira.bin)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Sega/Mega%20CD/US%20Sega%20CD%202%20%28Region%20Free%29%20930601%20l_oliveira.bin) |
+| `cd_bios.rom` | 131,072 | `9b562ebf2d095bf1dabadbc1881f519a` | [archive.org](https://archive.org/download/mister_bios_db/MegaCD.zip/%5BBIOS%5D%20Mega-CD%202%20%28Europe%29%20%28v2.00%29.md)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Sega/Mega%20CD/eu_mcd2_9303.bin) |
 | `cd_bios.rom` | 131,072 | `683a8a9e273662561172468dfa2858eb` | [archive.org](https://archive.org/download/mister_bios_db/MegaCD.zip/%5BBIOS%5D%20Mega-CD%202%20%28Japan%29%20%28v2.00C%29.md)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Sega/Mega%20CD/jp_mcd2_921222.bin) |
-| `cd_bios.rom` | 131,072 | `310a9081d2edf2d316ab38813136725e` | [archive.org](https://archive.org/download/mister_bios_db/MegaCD.zip/%5BBIOS%5D%20Sega%20CD%202%20%28USA%29%20%28v2.00%29.md)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Sega/Mega%20CD/us_scd2_9306.bin) |
+| `cd_bios.rom` | 131,072 | `310a9081d2edf2d316ab38813136725e` | [archive.org](https://archive.org/download/mister_bios_db/MegaCD.zip/%5BBIOS%5D%20Sega%20CD%202%20%28USA%29%20%28v2.00%29.md)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Sega/Mega%20CD/SegaCDBIOS9303.bin) |
 
 ### MSX1
 
@@ -175,8 +175,8 @@ Target directory: `/media/fat/games/N64/`
 
 | File | Size | MD5 | Notes |
 |---|---:|---|---|
-| `boot.rom` | 1,984 | `5c124e7948ada85da603a522782940d0` | [archive.org](https://archive.org/download/mister_bios_db/N64.zip/boot.rom) |
-| `boot1.rom` | 1,984 | `d4232dc935cad0650ac2664d52281f3a` | [archive.org](https://archive.org/download/mister_bios_db/N64.zip/boot1.rom) |
+| `boot.rom` | 1,984 | `5c124e7948ada85da603a522782940d0` | [archive.org](https://archive.org/download/mister_bios_db/N64.zip/boot.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Nintendo/Nintendo%2064/boot.rom) |
+| `boot1.rom` | 1,984 | `d4232dc935cad0650ac2664d52281f3a` | [archive.org](https://archive.org/download/mister_bios_db/N64.zip/boot1.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Nintendo/Nintendo%2064/boot1.rom) |
 | `boot3.rom` | 4,194,304 | `8d3d9f294b6e174bc7b1d2fd1c727530` | [archive.org](https://archive.org/download/mister_bios_db/N64.zip/boot3.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Nintendo/64DD/64DD_IPL_v12_JPN.bin) |
 | `boot4.rom` | 4,194,304 | `aad37b1492886b892f1821f37fd3ae34` | [archive.org](https://archive.org/download/mister_bios_db/N64.zip/boot4.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Nintendo/64DD/64DD_IPL_DEV.bin) |
 | `boot5.rom` | 4,194,304 | `37c36e4286d36892a9fc70eafe4104be` | [archive.org](https://archive.org/download/mister_bios_db/N64.zip/boot5.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Nintendo/64DD/64DD_IPL_USA.bin) |
@@ -188,9 +188,9 @@ Target directory: `/media/fat/games/NEOGEO/`
 | File | Size | MD5 | Notes |
 |---|---:|---|---|
 | `000-lo.lo` | 131,072 | `fc7599f3f871578fe9a0453662d1c966` | [archive.org](https://archive.org/download/mister_bios_db/NeoGeo.zip/000-lo.lo)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/SNK/Neo%20Geo%20CD/000-lo.lo) |
-| `neo-epo.sp1` | 131,072 | `b11751ad42879c461d64ad2b7b2b0129` | [archive.org](https://archive.org/download/mister_bios_db/NeoGeo.zip/neo-epo.sp1-AES_BIOS) |
-| `sfix.sfix` | 131,072 | `aa2b5d0eae4158ffc0d7d63481c7830b` | [archive.org](https://archive.org/download/mister_bios_db/NeoGeo.zip/sfix.sfix) |
-| `sp-s2.sp1` | 131,072 | `2968f59f44bf328639aa79391aeeeab4` | [archive.org](https://archive.org/download/mister_bios_db/NeoGeo.zip/sp-s2.sp1-MVS_BIOS) |
+| `neo-epo.sp1` | 131,072 | `b11751ad42879c461d64ad2b7b2b0129` | [archive.org](https://archive.org/download/mister_bios_db/NeoGeo.zip/neo-epo.sp1-AES_BIOS)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/SNK/Neo%20Geo/neo-epo.bin) |
+| `sfix.sfix` | 131,072 | `aa2b5d0eae4158ffc0d7d63481c7830b` | [archive.org](https://archive.org/download/mister_bios_db/NeoGeo.zip/sfix.sfix)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/SNK/Neo%20Geo/sfix.sfix) |
+| `sp-s2.sp1` | 131,072 | `2968f59f44bf328639aa79391aeeeab4` | [archive.org](https://archive.org/download/mister_bios_db/NeoGeo.zip/sp-s2.sp1-MVS_BIOS)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/SNK/Neo%20Geo/sp-s2.sp1) |
 
 ### NeoGeo-CD
 
@@ -207,7 +207,7 @@ Target directory: `/media/fat/games/NeoGeoPocket/`
 
 | File | Size | MD5 | Notes |
 |---|---:|---|---|
-| `boot.rom` | 65,536 | `43d0d53c69c12cc0d28f197717a1bb06` | [archive.org](https://archive.org/download/mister_bios_db/NeoGeoPocket.zip/boot.rom) |
+| `boot.rom` | 65,536 | `43d0d53c69c12cc0d28f197717a1bb06` | [archive.org](https://archive.org/download/mister_bios_db/NeoGeoPocket.zip/boot.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/SNK/Neo%20Geo%20Pocket/boot.rom) |
 
 ### NES
 
@@ -215,7 +215,7 @@ Target directory: `/media/fat/games/NES/`
 
 | File | Size | MD5 | Notes |
 |---|---:|---|---|
-| `boot0.rom` | 8,192 | `ca30b50f880eb660a320674ed365ef7a` | [archive.org](https://archive.org/download/mister_bios_db/NES.zip/fds-bios.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Nintendo/Famicom%20Disk%20System/FDS_disksys-nintendo.rom) |
+| `boot0.rom` | 8,192 | `ca30b50f880eb660a320674ed365ef7a` | [archive.org](https://archive.org/download/mister_bios_db/NES.zip/fds-bios.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Arcade/FBNeo/fdsbios.nes) |
 
 ### PC8801
 
@@ -223,7 +223,7 @@ Target directory: `/media/fat/games/PC8801/`
 
 | File | Size | MD5 | Notes |
 |---|---:|---|---|
-| `boot.rom` | 393,216 | `f1ce4d5f83717093982e5f75516b8f3c` | [archive.org](https://archive.org/download/mister_bios_db/PC88.zip/PC8801%20MKII%20SR%20BIOS.rom) |
+| `boot.rom` | 393,216 | `f1ce4d5f83717093982e5f75516b8f3c` | [archive.org](https://archive.org/download/mister_bios_db/PC88.zip/PC8801%20MKII%20SR%20BIOS.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/NEC/PC-88/PC8801%20MKII%20SR%20BIOS.rom) |
 
 ### PocketChallengeV2
 
@@ -231,8 +231,8 @@ Target directory: `/media/fat/games/PocketChallengeV2/`
 
 | File | Size | MD5 | Notes |
 |---|---:|---|---|
-| `boot.rom` | 4,096 | `54b915694731cc22e07d3fb8a00ee2db` | [archive.org](https://archive.org/download/mister_bios_db/WonderSwan.zip/boot.rom) |
-| `boot1.rom` | 8,192 | `880893bd5a7d53fff826bd76a83d566e` | [archive.org](https://archive.org/download/mister_bios_db/WonderSwan.zip/boot1.rom) |
+| `boot.rom` | 4,096 | `54b915694731cc22e07d3fb8a00ee2db` | [archive.org](https://archive.org/download/mister_bios_db/WonderSwan.zip/boot.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Bandai/WonderSwan/bootrom.ws) |
+| `boot1.rom` | 8,192 | `880893bd5a7d53fff826bd76a83d566e` | [archive.org](https://archive.org/download/mister_bios_db/WonderSwan.zip/boot1.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Bandai/WonderSwan/bootrom.wsc) |
 
 ### PokemonMini
 
@@ -251,7 +251,7 @@ Target directory: `/media/fat/games/PSX/`
 | `boot.rom` | 524,288 | `1e68c231d0896b7eadcad1d7d8e76129` | [archive.org](https://archive.org/download/mister_bios_db/PSX.zip/SCPH7001.BIN)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Sony/PlayStation/scph7001.bin) |
 | `boot1.rom` | 524,288 | `8e4c14f567745eff2f0408c8129f72a6` | [archive.org](https://archive.org/download/mister_bios_db/PSX.zip/SCPH7000.BIN)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Sony/PlayStation/scph7000.bin) |
 | `boot2.rom` | 524,288 | `b9d9a0286c33dc6b7237bb13cd46fdee` | [archive.org](https://archive.org/download/mister_bios_db/PSX.zip/SCPH7002.BIN)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Sony/PlayStation/scph7002.bin) |
-| `sbi.zip` | 218,953 | `706d60ab2dfdbfdd53be2069cb85a1fe` | [archive.org](https://archive.org/download/mister_bios_db/PSX.zip/sbi.zip) |
+| `sbi.zip` | 218,953 | `706d60ab2dfdbfdd53be2069cb85a1fe` | [archive.org](https://archive.org/download/mister_bios_db/PSX.zip/sbi.zip)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Sony/PlayStation/sbi.zip) |
 
 ### Saturn
 
@@ -267,7 +267,7 @@ Target directory: `/media/fat/games/SCV/`
 
 | File | Size | MD5 | Notes |
 |---|---:|---|---|
-| `boot.rom` | 6,144 | `b596975be2e0360232bbeb1e492ab873` | [archive.org](https://archive.org/download/mister_bios_db/SCV.zip/SCV%2FSCV%20boot.rom) |
+| `boot.rom` | 6,144 | `b596975be2e0360232bbeb1e492ab873` | [archive.org](https://archive.org/download/mister_bios_db/SCV.zip/SCV%2FSCV%20boot.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Epoch/Super%20Cassette%20Vision/boot.rom) |
 
 ### SGB
 
@@ -292,7 +292,7 @@ Target directory: `/media/fat/games/TGFX16-CD/`
 
 | File | Size | MD5 | Notes |
 |---|---:|---|---|
-| `cd_bios.rom` | 262,144 | `98d43a097a165b03df170fd5c2ad2c2f` | [archive.org](https://archive.org/download/mister_bios_db/TurboGrafx16.zip/TurboGrafx16/Super%20CD%203.1.pce) |
+| `cd_bios.rom` | 262,144 | `98d43a097a165b03df170fd5c2ad2c2f` | [archive.org](https://archive.org/download/mister_bios_db/TurboGrafx16.zip/TurboGrafx16/Super%20CD%203.1.pce)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/NEC/PC%20Engine%20CD/Super%20CD%203.1.pce) |
 
 ### TI-99_4A
 
@@ -300,7 +300,7 @@ Target directory: `/media/fat/games/TI-99_4A/`
 
 | File | Size | MD5 | Notes |
 |---|---:|---|---|
-| `boot0.rom` | 196,608 | `a75bb208176c0aed1b6a04b2dcf4770c` | [archive.org](https://archive.org/download/mister_bios_db/TI-99_4A.zip/boot0.rom) |
+| `boot0.rom` | 196,608 | `a75bb208176c0aed1b6a04b2dcf4770c` | [archive.org](https://archive.org/download/mister_bios_db/TI-99_4A.zip/boot0.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Texas%20Instruments/TI-99/boot0.rom) |
 
 ### WonderSwan
 
@@ -308,8 +308,8 @@ Target directory: `/media/fat/games/WonderSwan/`
 
 | File | Size | MD5 | Notes |
 |---|---:|---|---|
-| `boot.rom` | 4,096 | `54b915694731cc22e07d3fb8a00ee2db` | [archive.org](https://archive.org/download/mister_bios_db/WonderSwan.zip/boot.rom) |
-| `boot1.rom` | 8,192 | `880893bd5a7d53fff826bd76a83d566e` | [archive.org](https://archive.org/download/mister_bios_db/WonderSwan.zip/boot1.rom) |
+| `boot.rom` | 4,096 | `54b915694731cc22e07d3fb8a00ee2db` | [archive.org](https://archive.org/download/mister_bios_db/WonderSwan.zip/boot.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Bandai/WonderSwan/bootrom.ws) |
+| `boot1.rom` | 8,192 | `880893bd5a7d53fff826bd76a83d566e` | [archive.org](https://archive.org/download/mister_bios_db/WonderSwan.zip/boot1.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Bandai/WonderSwan/bootrom.wsc) |
 
 ### WonderSwanColor
 
@@ -317,8 +317,8 @@ Target directory: `/media/fat/games/WonderSwanColor/`
 
 | File | Size | MD5 | Notes |
 |---|---:|---|---|
-| `boot.rom` | 4,096 | `54b915694731cc22e07d3fb8a00ee2db` | [archive.org](https://archive.org/download/mister_bios_db/WonderSwan.zip/boot.rom) |
-| `boot1.rom` | 8,192 | `880893bd5a7d53fff826bd76a83d566e` | [archive.org](https://archive.org/download/mister_bios_db/WonderSwan.zip/boot1.rom) |
+| `boot.rom` | 4,096 | `54b915694731cc22e07d3fb8a00ee2db` | [archive.org](https://archive.org/download/mister_bios_db/WonderSwan.zip/boot.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Bandai/WonderSwan/bootrom.ws) |
+| `boot1.rom` | 8,192 | `880893bd5a7d53fff826bd76a83d566e` | [archive.org](https://archive.org/download/mister_bios_db/WonderSwan.zip/boot1.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Bandai/WonderSwan/bootrom.wsc) |
 
 ---
 
