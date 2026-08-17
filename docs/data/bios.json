@@ -273,6 +273,20 @@
       "retrobios_name": "GameCom External BIOS (Kitrinx v0.03).bin"
     },
     {
+      "core": "GameKing",
+      "filename": "boot.rom",
+      "target_path": "games/GameKing/boot.rom",
+      "size": 524288,
+      "md5": "1c7e3cb2df4af8ce3eff187c4155d1a7",
+      "url": "https://archive.org/download/mister_bios_db/GameKing.zip/gm218.bin",
+      "tags": [
+        "gameking"
+      ],
+      "source": "biosdb",
+      "notes": "",
+      "status": "catalog"
+    },
+    {
       "core": "GBA",
       "filename": "boot.rom",
       "target_path": "games/GBA/boot.rom",
@@ -706,6 +720,38 @@
       "status": "catalog",
       "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Arcade/FBNeo/fdsbios.nes",
       "retrobios_name": "fdsbios.nes"
+    },
+    {
+      "core": "NGPC",
+      "filename": "boot0.rom",
+      "target_path": "games/NGPC/boot0.rom",
+      "size": 65536,
+      "md5": "3655aacebb43a963607d4cf821fc1301",
+      "url": "https://archive.org/download/mister_bios_db/NGPC.zip/boot0.rom",
+      "tags": [
+        "ngpc"
+      ],
+      "source": "biosdb",
+      "notes": "",
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/SNK/Neo%20Geo%20Pocket/SNK%20Neo-Geo%20Pocket%20Color%20BIOS%20%281999%29%28SNK%29%28en-ja%29.bin",
+      "retrobios_name": "SNK Neo-Geo Pocket Color BIOS (1999)(SNK)(en-ja).bin"
+    },
+    {
+      "core": "NGPC",
+      "filename": "boot1.rom",
+      "target_path": "games/NGPC/boot1.rom",
+      "size": 65536,
+      "md5": "d87d876c4391935c9d48ef352a3ff02d",
+      "url": "https://archive.org/download/mister_bios_db/NGPC.zip/boot1.rom",
+      "tags": [
+        "ngpc"
+      ],
+      "source": "biosdb",
+      "notes": "",
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/SNK/Neo%20Geo%20Pocket/SNK%20Neo-Geo%20Pocket%20BIOS%20%281998%29%28SNK%29%28en-ja%29.bin",
+      "retrobios_name": "SNK Neo-Geo Pocket BIOS (1998)(SNK)(en-ja).bin"
     },
     {
       "core": "PC8801",

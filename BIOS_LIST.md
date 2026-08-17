@@ -1,13 +1,13 @@
 # MiSTer FPGA BIOS List
 
-_Generated 2026-08-10 from [ajgowans/BiosDB_MiSTer](https://github.com/ajgowans/BiosDB_MiSTer) @ 2026-07-27_
+_Generated 2026-08-17 from [ajgowans/BiosDB_MiSTer](https://github.com/ajgowans/BiosDB_MiSTer) @ 2026-08-14_
 
 ## Summary
 
-- **63** total entries across **34** cores
-- 63 from BiosDB upstream
+- **66** total entries across **36** cores
+- 66 from BiosDB upstream
 - 0 flagged gap entries (needs community-verified hash)
-- 63 entries have a mirror in [retrobios](https://github.com/Abdess/retrobios) (2nd download source)
+- 65 entries have a mirror in [retrobios](https://github.com/Abdess/retrobios) (2nd download source)
 
 ## How to use
 
@@ -113,6 +113,14 @@ Target directory: `/media/fat/games/GameCom/`
 |---|---:|---|---|
 | `boot.rom` | 262,144 | `3f2178d717dd309ed7424d49ef92987f` | [archive.org](https://archive.org/download/mister_bios_db/GameCom.zip/GameCom%20External%20BIOS%20%28Kitrinx%20v0.03%29.bin)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Tiger/Game.com/GameCom%20External%20BIOS%20%28Kitrinx%20v0.03%29.bin) |
 
+### GameKing
+
+Target directory: `/media/fat/games/GameKing/`
+
+| File | Size | MD5 | Notes |
+|---|---:|---|---|
+| `boot.rom` | 524,288 | `1c7e3cb2df4af8ce3eff187c4155d1a7` | [archive.org](https://archive.org/download/mister_bios_db/GameKing.zip/gm218.bin) |
+
 ### GBA
 
 Target directory: `/media/fat/games/GBA/`
@@ -216,6 +224,15 @@ Target directory: `/media/fat/games/NES/`
 | File | Size | MD5 | Notes |
 |---|---:|---|---|
 | `boot0.rom` | 8,192 | `ca30b50f880eb660a320674ed365ef7a` | [archive.org](https://archive.org/download/mister_bios_db/NES.zip/fds-bios.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Arcade/FBNeo/fdsbios.nes) |
+
+### NGPC
+
+Target directory: `/media/fat/games/NGPC/`
+
+| File | Size | MD5 | Notes |
+|---|---:|---|---|
+| `boot0.rom` | 65,536 | `3655aacebb43a963607d4cf821fc1301` | [archive.org](https://archive.org/download/mister_bios_db/NGPC.zip/boot0.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/SNK/Neo%20Geo%20Pocket/SNK%20Neo-Geo%20Pocket%20Color%20BIOS%20%281999%29%28SNK%29%28en-ja%29.bin) |
+| `boot1.rom` | 65,536 | `d87d876c4391935c9d48ef352a3ff02d` | [archive.org](https://archive.org/download/mister_bios_db/NGPC.zip/boot1.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/SNK/Neo%20Geo%20Pocket/SNK%20Neo-Geo%20Pocket%20BIOS%20%281998%29%28SNK%29%28en-ja%29.bin) |
 
 ### PC8801
 

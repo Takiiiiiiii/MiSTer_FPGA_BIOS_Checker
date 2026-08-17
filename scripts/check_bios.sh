@@ -1,6 +1,6 @@
 #!/bin/sh
 # check_bios.sh - MiSTer BIOS scanner
-# 63 BIOS entries, last updated 2026-08-10
+# 66 BIOS entries, last updated 2026-08-17
 #
 # Checks your MiSTer SD card for missing or mismatched BIOS files
 # and writes a report to /media/fat/bios_report.txt.
@@ -32,6 +32,7 @@ CreatiVision|boot.rom|CreatiVision/boot.rom|16384|4dfadfb1158f84e2df2b85b13f3039
 Gamate|boot.rom|Gamate/boot.rom|4096|ef67993a94503c4b7798b5901c7dda52
 GAMEBOY|boot1.rom|GAMEBOY/boot1.rom|2304|dbfce9db9deaa2567f6a84fde55f9680
 GameCom|boot.rom|GameCom/boot.rom|262144|3f2178d717dd309ed7424d49ef92987f
+GameKing|boot.rom|GameKing/boot.rom|524288|1c7e3cb2df4af8ce3eff187c4155d1a7
 GBA|boot.rom|GBA/boot.rom|16384|a860e8c0b6d573d191e4ec7db1b1e4f6
 Intellivision|boot0.rom|Intellivision/boot0.rom|8192|62e761035cb657903761800f4437b8af
 Intellivision|boot1.rom|Intellivision/boot1.rom|2048|0cd5946c6473e42e8e4c2137785e427f
@@ -59,6 +60,8 @@ NeoGeo-CD|neocd.bin|NeoGeo-CD/neocd.bin|524288|f39572af7584cb5b3f70ae8cc848aba2
 NeoGeo-CD|top-sp1.bin|NeoGeo-CD/top-sp1.bin|524288|122aee210324c72e8a11116e6ef9c0d0
 NeoGeoPocket|boot.rom|NeoGeoPocket/boot.rom|65536|43d0d53c69c12cc0d28f197717a1bb06
 NES|boot0.rom|NES/boot0.rom|8192|ca30b50f880eb660a320674ed365ef7a
+NGPC|boot0.rom|NGPC/boot0.rom|65536|3655aacebb43a963607d4cf821fc1301
+NGPC|boot1.rom|NGPC/boot1.rom|65536|d87d876c4391935c9d48ef352a3ff02d
 PC8801|boot.rom|PC8801/boot.rom|393216|f1ce4d5f83717093982e5f75516b8f3c
 PocketChallengeV2|boot.rom|PocketChallengeV2/boot.rom|4096|54b915694731cc22e07d3fb8a00ee2db
 PocketChallengeV2|boot1.rom|PocketChallengeV2/boot1.rom|8192|880893bd5a7d53fff826bd76a83d566e
