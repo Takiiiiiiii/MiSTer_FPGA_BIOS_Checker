@@ -690,22 +690,6 @@
       "retrobios_name": "top-sp1.bin"
     },
     {
-      "core": "NeoGeoPocket",
-      "filename": "boot.rom",
-      "target_path": "games/NeoGeoPocket/boot.rom",
-      "size": 65536,
-      "md5": "43d0d53c69c12cc0d28f197717a1bb06",
-      "url": "https://archive.org/download/mister_bios_db/NeoGeoPocket.zip/boot.rom",
-      "tags": [
-        "neogeopocket"
-      ],
-      "source": "biosdb",
-      "notes": "",
-      "status": "catalog",
-      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/SNK/Neo%20Geo%20Pocket/boot.rom",
-      "retrobios_name": "boot.rom"
-    },
-    {
       "core": "NES",
       "filename": "boot0.rom",
       "target_path": "games/NES/boot0.rom",

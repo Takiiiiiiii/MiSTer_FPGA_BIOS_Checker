@@ -1,13 +1,13 @@
 # MiSTer FPGA BIOS List
 
-_Generated 2026-08-17 from [ajgowans/BiosDB_MiSTer](https://github.com/ajgowans/BiosDB_MiSTer) @ 2026-08-14_
+_Generated 2026-08-24 from [ajgowans/BiosDB_MiSTer](https://github.com/ajgowans/BiosDB_MiSTer) @ 2026-08-19_
 
 ## Summary
 
-- **66** total entries across **36** cores
-- 66 from BiosDB upstream
+- **65** total entries across **35** cores
+- 65 from BiosDB upstream
 - 0 flagged gap entries (needs community-verified hash)
-- 65 entries have a mirror in [retrobios](https://github.com/Abdess/retrobios) (2nd download source)
+- 64 entries have a mirror in [retrobios](https://github.com/Abdess/retrobios) (2nd download source)
 
 ## How to use
 
@@ -208,14 +208,6 @@ Target directory: `/media/fat/games/NeoGeo-CD/`
 |---|---:|---|---|
 | `neocd.bin` | 524,288 | `f39572af7584cb5b3f70ae8cc848aba2` | [archive.org](https://archive.org/download/mister_bios_db/NeoGeoCD.zip/neocd.bin)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/SNK/Neo%20Geo%20CD/neocd.bin) |
 | `top-sp1.bin` | 524,288 | `122aee210324c72e8a11116e6ef9c0d0` | [archive.org](https://archive.org/download/mister_bios_db/NeoGeoCD.zip/top-sp1.bin)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/SNK/Neo%20Geo%20CD/top-sp1.bin) |
-
-### NeoGeoPocket
-
-Target directory: `/media/fat/games/NeoGeoPocket/`
-
-| File | Size | MD5 | Notes |
-|---|---:|---|---|
-| `boot.rom` | 65,536 | `43d0d53c69c12cc0d28f197717a1bb06` | [archive.org](https://archive.org/download/mister_bios_db/NeoGeoPocket.zip/boot.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/SNK/Neo%20Geo%20Pocket/boot.rom) |
 
 ### NES
 
