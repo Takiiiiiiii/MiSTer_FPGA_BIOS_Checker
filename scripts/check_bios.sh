@@ -1,6 +1,6 @@
 #!/bin/sh
 # check_bios.sh - MiSTer BIOS scanner
-# 65 BIOS entries, last updated 2026-08-24
+# 70 BIOS entries, last updated 2026-08-31
 #
 # Checks your MiSTer SD card for missing or mismatched BIOS files
 # and writes a report to /media/fat/bios_report.txt.
@@ -74,6 +74,11 @@ SCV|boot.rom|SCV/boot.rom|6144|b596975be2e0360232bbeb1e492ab873
 SGB|Super Game Boy 2.sfc|SGB/Super Game Boy 2.sfc|524288|8ecd73eb4edf7ed7e81aef1be80031d5
 SGB|Super Game Boy.sfc|SGB/Super Game Boy.sfc|262144|b15ddb15721c657d82c5bab6db982ee9
 SNES|bsx_bios.rom|SNES/bsx_bios.rom|1048576|96cf17bf589fcbfa6f8de2dc84f19fa2
+Studio-II|boot0.rom|Studio-II/boot0.rom|2048|b37205bf19b197682f00619d05da194b
+Studio-II|boot1.rom|Studio-II/boot1.rom|4096|a6b94e449bc9ec58a30e1f75d590c558
+Studio-II|boot2.rom|Studio-II/boot2.rom|4096|849a484aa4b2784ece5c35c39d9d51a8
+Studio-II|boot3.rom|Studio-II/boot3.rom|2048|aeec6fe3934481e20eb7db6d5ff56a54
+Studio-II|boot4.rom|Studio-II/boot4.rom|768|9f037435b6721be9ee91dc93293e52ce
 TGFX16-CD|cd_bios.rom|TGFX16-CD/cd_bios.rom|262144|98d43a097a165b03df170fd5c2ad2c2f
 TI-99_4A|boot0.rom|TI-99_4A/boot0.rom|196608|a75bb208176c0aed1b6a04b2dcf4770c
 WonderSwan|boot.rom|WonderSwan/boot.rom|4096|54b915694731cc22e07d3fb8a00ee2db

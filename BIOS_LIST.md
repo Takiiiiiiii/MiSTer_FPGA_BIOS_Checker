@@ -1,11 +1,11 @@
 # MiSTer FPGA BIOS List
 
-_Generated 2026-08-24 from [ajgowans/BiosDB_MiSTer](https://github.com/ajgowans/BiosDB_MiSTer) @ 2026-08-19_
+_Generated 2026-08-31 from [ajgowans/BiosDB_MiSTer](https://github.com/ajgowans/BiosDB_MiSTer) @ 2026-08-29_
 
 ## Summary
 
-- **65** total entries across **35** cores
-- 65 from BiosDB upstream
+- **70** total entries across **36** cores
+- 70 from BiosDB upstream
 - 0 flagged gap entries (needs community-verified hash)
 - 64 entries have a mirror in [retrobios](https://github.com/Abdess/retrobios) (2nd download source)
 
@@ -294,6 +294,18 @@ Target directory: `/media/fat/games/SNES/`
 | File | Size | MD5 | Notes |
 |---|---:|---|---|
 | `bsx_bios.rom` | 1,048,576 | `96cf17bf589fcbfa6f8de2dc84f19fa2` | [archive.org](https://archive.org/download/mister_bios_db/SNES.zip/BS-X%20BIOS%20%28English%29%20%5BNo%20DRM%5D%20%5B2016%20v1.3%5D.sfc)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Nintendo/SNES/BS-X.bin) |
+
+### Studio-II
+
+Target directory: `/media/fat/games/Studio-II/`
+
+| File | Size | MD5 | Notes |
+|---|---:|---|---|
+| `boot0.rom` | 2,048 | `b37205bf19b197682f00619d05da194b` | [archive.org](https://archive.org/download/mister_bios_db/Studio-II.zip/boot0.rom) |
+| `boot1.rom` | 4,096 | `a6b94e449bc9ec58a30e1f75d590c558` | [archive.org](https://archive.org/download/mister_bios_db/Studio-II.zip/boot1.rom) |
+| `boot2.rom` | 4,096 | `849a484aa4b2784ece5c35c39d9d51a8` | [archive.org](https://archive.org/download/mister_bios_db/Studio-II.zip/boot2.rom) |
+| `boot3.rom` | 2,048 | `aeec6fe3934481e20eb7db6d5ff56a54` | [archive.org](https://archive.org/download/mister_bios_db/Studio-II.zip/boot3.rom) |
+| `boot4.rom` | 768 | `9f037435b6721be9ee91dc93293e52ce` | [archive.org](https://archive.org/download/mister_bios_db/Studio-II.zip/boot4.rom) |
 
 ### TGFX16-CD
 

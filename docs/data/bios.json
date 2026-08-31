@@ -946,6 +946,76 @@
       "retrobios_name": "BS-X.bin"
     },
     {
+      "core": "Studio-II",
+      "filename": "boot0.rom",
+      "target_path": "games/Studio-II/boot0.rom",
+      "size": 2048,
+      "md5": "b37205bf19b197682f00619d05da194b",
+      "url": "https://archive.org/download/mister_bios_db/Studio-II.zip/boot0.rom",
+      "tags": [
+        "studioii"
+      ],
+      "source": "biosdb",
+      "notes": "",
+      "status": "catalog"
+    },
+    {
+      "core": "Studio-II",
+      "filename": "boot1.rom",
+      "target_path": "games/Studio-II/boot1.rom",
+      "size": 4096,
+      "md5": "a6b94e449bc9ec58a30e1f75d590c558",
+      "url": "https://archive.org/download/mister_bios_db/Studio-II.zip/boot1.rom",
+      "tags": [
+        "studioii"
+      ],
+      "source": "biosdb",
+      "notes": "",
+      "status": "catalog"
+    },
+    {
+      "core": "Studio-II",
+      "filename": "boot2.rom",
+      "target_path": "games/Studio-II/boot2.rom",
+      "size": 4096,
+      "md5": "849a484aa4b2784ece5c35c39d9d51a8",
+      "url": "https://archive.org/download/mister_bios_db/Studio-II.zip/boot2.rom",
+      "tags": [
+        "studioii"
+      ],
+      "source": "biosdb",
+      "notes": "",
+      "status": "catalog"
+    },
+    {
+      "core": "Studio-II",
+      "filename": "boot3.rom",
+      "target_path": "games/Studio-II/boot3.rom",
+      "size": 2048,
+      "md5": "aeec6fe3934481e20eb7db6d5ff56a54",
+      "url": "https://archive.org/download/mister_bios_db/Studio-II.zip/boot3.rom",
+      "tags": [
+        "studioii"
+      ],
+      "source": "biosdb",
+      "notes": "",
+      "status": "catalog"
+    },
+    {
+      "core": "Studio-II",
+      "filename": "boot4.rom",
+      "target_path": "games/Studio-II/boot4.rom",
+      "size": 768,
+      "md5": "9f037435b6721be9ee91dc93293e52ce",
+      "url": "https://archive.org/download/mister_bios_db/Studio-II.zip/boot4.rom",
+      "tags": [
+        "studioii"
+      ],
+      "source": "biosdb",
+      "notes": "",
+      "status": "catalog"
+    },
+    {
       "core": "TGFX16-CD",
       "filename": "cd_bios.rom",
       "target_path": "games/TGFX16-CD/cd_bios.rom",
