@@ -1,13 +1,13 @@
 # MiSTer FPGA BIOS List
 
-_Generated 2026-08-31 from [ajgowans/BiosDB_MiSTer](https://github.com/ajgowans/BiosDB_MiSTer) @ 2026-08-29_
+_Generated 2026-09-07 from [ajgowans/BiosDB_MiSTer](https://github.com/ajgowans/BiosDB_MiSTer) @ 2026-09-06_
 
 ## Summary
 
-- **70** total entries across **36** cores
-- 70 from BiosDB upstream
+- **72** total entries across **37** cores
+- 72 from BiosDB upstream
 - 0 flagged gap entries (needs community-verified hash)
-- 64 entries have a mirror in [retrobios](https://github.com/Abdess/retrobios) (2nd download source)
+- 70 entries have a mirror in [retrobios](https://github.com/Abdess/retrobios) (2nd download source)
 
 ## How to use
 
@@ -119,7 +119,7 @@ Target directory: `/media/fat/games/GameKing/`
 
 | File | Size | MD5 | Notes |
 |---|---:|---|---|
-| `boot.rom` | 524,288 | `1c7e3cb2df4af8ce3eff187c4155d1a7` | [archive.org](https://archive.org/download/mister_bios_db/GameKing.zip/gm218.bin) |
+| `boot.rom` | 524,288 | `1c7e3cb2df4af8ce3eff187c4155d1a7` | [archive.org](https://archive.org/download/mister_bios_db/GameKing.zip/gm218.bin)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/TimeTop/GameKing/boot.rom) |
 
 ### GBA
 
@@ -157,6 +157,15 @@ Target directory: `/media/fat/games/Jaguar/`
 | `boot.rom` | 131,072 | `6e844759720226e58d55ecaf33608a13` | [archive.org](https://archive.org/download/mister_bios_db/Jaguar.zip/Jaguar%2Fboot.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Atari/Jaguar/boot.rom) |
 | `boot1.rom` | 262,144 | `18f0741bdb8bb9b6bb99393cb90426a2` | [archive.org](https://archive.org/download/mister_bios_db/Jaguar.zip/Jaguar%2Fboot1.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Atari/Jaguar/boot1.rom) |
 | `boot2.rom` | 131,072 | `4af00f1c26898cf04585e1693d25faba` | [archive.org](https://archive.org/download/mister_bios_db/Jaguar.zip/Jaguar%2Fboot2.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Atari/Jaguar/boot2.rom) |
+
+### Loopy
+
+Target directory: `/media/fat/games/Loopy/`
+
+| File | Size | MD5 | Notes |
+|---|---:|---|---|
+| `boot0.rom` | 32,768 | `d527e3ed1bf9bd0661154c202a65c5bd` | [archive.org](https://archive.org/download/mister_bios_db/CasioLoopy.zip/boot0.rom) |
+| `boot1.rom` | 524,288 | `c0f1c899c9ca098663d046d60779711d` | [archive.org](https://archive.org/download/mister_bios_db/CasioLoopy.zip/boot1.rom) |
 
 ### MegaCD
 
@@ -301,11 +310,11 @@ Target directory: `/media/fat/games/Studio-II/`
 
 | File | Size | MD5 | Notes |
 |---|---:|---|---|
-| `boot0.rom` | 2,048 | `b37205bf19b197682f00619d05da194b` | [archive.org](https://archive.org/download/mister_bios_db/Studio-II.zip/boot0.rom) |
-| `boot1.rom` | 4,096 | `a6b94e449bc9ec58a30e1f75d590c558` | [archive.org](https://archive.org/download/mister_bios_db/Studio-II.zip/boot1.rom) |
-| `boot2.rom` | 4,096 | `849a484aa4b2784ece5c35c39d9d51a8` | [archive.org](https://archive.org/download/mister_bios_db/Studio-II.zip/boot2.rom) |
-| `boot3.rom` | 2,048 | `aeec6fe3934481e20eb7db6d5ff56a54` | [archive.org](https://archive.org/download/mister_bios_db/Studio-II.zip/boot3.rom) |
-| `boot4.rom` | 768 | `9f037435b6721be9ee91dc93293e52ce` | [archive.org](https://archive.org/download/mister_bios_db/Studio-II.zip/boot4.rom) |
+| `boot0.rom` | 2,048 | `b37205bf19b197682f00619d05da194b` | [archive.org](https://archive.org/download/mister_bios_db/Studio-II.zip/boot0.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/RCA/Studio%20II/boot0.rom) |
+| `boot1.rom` | 4,096 | `a6b94e449bc9ec58a30e1f75d590c558` | [archive.org](https://archive.org/download/mister_bios_db/Studio-II.zip/boot1.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/RCA/Studio%20II/boot1.rom) |
+| `boot2.rom` | 4,096 | `849a484aa4b2784ece5c35c39d9d51a8` | [archive.org](https://archive.org/download/mister_bios_db/Studio-II.zip/boot2.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/RCA/Studio%20II/boot2.rom) |
+| `boot3.rom` | 2,048 | `aeec6fe3934481e20eb7db6d5ff56a54` | [archive.org](https://archive.org/download/mister_bios_db/Studio-II.zip/boot3.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/RCA/Studio%20II/boot3.rom) |
+| `boot4.rom` | 768 | `9f037435b6721be9ee91dc93293e52ce` | [archive.org](https://archive.org/download/mister_bios_db/Studio-II.zip/boot4.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/RCA/Studio%20II/boot4.rom) |
 
 ### TGFX16-CD
 

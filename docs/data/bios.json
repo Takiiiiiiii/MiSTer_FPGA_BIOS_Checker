@@ -284,7 +284,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/TimeTop/GameKing/boot.rom",
+      "retrobios_name": "boot.rom"
     },
     {
       "core": "GBA",
@@ -429,6 +431,34 @@
       "status": "catalog",
       "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Atari/Jaguar/boot2.rom",
       "retrobios_name": "boot2.rom"
+    },
+    {
+      "core": "Loopy",
+      "filename": "boot0.rom",
+      "target_path": "games/Loopy/boot0.rom",
+      "size": 32768,
+      "md5": "d527e3ed1bf9bd0661154c202a65c5bd",
+      "url": "https://archive.org/download/mister_bios_db/CasioLoopy.zip/boot0.rom",
+      "tags": [
+        "loopy"
+      ],
+      "source": "biosdb",
+      "notes": "",
+      "status": "catalog"
+    },
+    {
+      "core": "Loopy",
+      "filename": "boot1.rom",
+      "target_path": "games/Loopy/boot1.rom",
+      "size": 524288,
+      "md5": "c0f1c899c9ca098663d046d60779711d",
+      "url": "https://archive.org/download/mister_bios_db/CasioLoopy.zip/boot1.rom",
+      "tags": [
+        "loopy"
+      ],
+      "source": "biosdb",
+      "notes": "",
+      "status": "catalog"
     },
     {
       "core": "MegaCD",
@@ -957,7 +987,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/RCA/Studio%20II/boot0.rom",
+      "retrobios_name": "boot0.rom"
     },
     {
       "core": "Studio-II",
@@ -971,7 +1003,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/RCA/Studio%20II/boot1.rom",
+      "retrobios_name": "boot1.rom"
     },
     {
       "core": "Studio-II",
@@ -985,7 +1019,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/RCA/Studio%20II/boot2.rom",
+      "retrobios_name": "boot2.rom"
     },
     {
       "core": "Studio-II",
@@ -999,7 +1035,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/RCA/Studio%20II/boot3.rom",
+      "retrobios_name": "boot3.rom"
     },
     {
       "core": "Studio-II",
@@ -1013,7 +1051,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/RCA/Studio%20II/boot4.rom",
+      "retrobios_name": "boot4.rom"
     },
     {
       "core": "TGFX16-CD",
