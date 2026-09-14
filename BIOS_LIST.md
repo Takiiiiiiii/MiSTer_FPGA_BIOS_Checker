@@ -1,11 +1,11 @@
 # MiSTer FPGA BIOS List
 
-_Generated 2026-09-07 from [ajgowans/BiosDB_MiSTer](https://github.com/ajgowans/BiosDB_MiSTer) @ 2026-09-06_
+_Generated 2026-09-14 from [ajgowans/BiosDB_MiSTer](https://github.com/ajgowans/BiosDB_MiSTer) @ 2026-09-08_
 
 ## Summary
 
-- **72** total entries across **37** cores
-- 72 from BiosDB upstream
+- **75** total entries across **38** cores
+- 75 from BiosDB upstream
 - 0 flagged gap entries (needs community-verified hash)
 - 70 entries have a mirror in [retrobios](https://github.com/Abdess/retrobios) (2nd download source)
 
@@ -315,6 +315,16 @@ Target directory: `/media/fat/games/Studio-II/`
 | `boot2.rom` | 4,096 | `849a484aa4b2784ece5c35c39d9d51a8` | [archive.org](https://archive.org/download/mister_bios_db/Studio-II.zip/boot2.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/RCA/Studio%20II/boot2.rom) |
 | `boot3.rom` | 2,048 | `aeec6fe3934481e20eb7db6d5ff56a54` | [archive.org](https://archive.org/download/mister_bios_db/Studio-II.zip/boot3.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/RCA/Studio%20II/boot3.rom) |
 | `boot4.rom` | 768 | `9f037435b6721be9ee91dc93293e52ce` | [archive.org](https://archive.org/download/mister_bios_db/Studio-II.zip/boot4.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/RCA/Studio%20II/boot4.rom) |
+
+### SuperAcan
+
+Target directory: `/media/fat/games/SuperAcan/`
+
+| File | Size | MD5 | Notes |
+|---|---:|---|---|
+| `boot0.rom` | 4,096 | `53c4343e062bb3b337370bbb58e64d16` | [archive.org](https://archive.org/download/mister_bios_db/SuperAcan.zip/BIOS%2Finternal_68k.bin) |
+| `boot1.rom` | 8,192 | `c5bab9c8148578cda8a7bc6098e7fb52` | [archive.org](https://archive.org/download/mister_bios_db/SuperAcan.zip/BIOS%2Finternal_6502_1.bin) |
+| `boot2.rom` | 8,192 | `3938e12dae1845046b3f2fa023a6a56a` | [archive.org](https://archive.org/download/mister_bios_db/SuperAcan.zip/BIOS%2Finternal_6502_2.bin) |
 
 ### TGFX16-CD
 

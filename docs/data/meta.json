@@ -1,17 +1,17 @@
 {
-  "generated": "2026-09-07T11:52:27.584706+00:00",
+  "generated": "2026-09-14T12:07:56.417997+00:00",
   "upstream_source": "https://raw.githubusercontent.com/ajgowans/BiosDB_MiSTer/db/bios_db.json.zip",
-  "upstream_timestamp": 1788722849,
-  "upstream_iso": "2026-09-06T19:27:29+00:00",
+  "upstream_timestamp": 1788900091,
+  "upstream_iso": "2026-09-08T20:41:31+00:00",
   "retrobios_source": "https://raw.githubusercontent.com/Abdess/retrobios/main/database.json",
-  "retrobios_generated_at": "2026-09-07T02:25:37Z",
-  "retrobios_total_files": 10330,
+  "retrobios_generated_at": "2026-09-14T08:39:54Z",
+  "retrobios_total_files": 10375,
   "counts": {
-    "total": 72,
+    "total": 75,
     "by_source": {
-      "biosdb": 72
+      "biosdb": 75
     },
-    "cores": 37,
+    "cores": 38,
     "retrobios_matched": 70
   }
 }
