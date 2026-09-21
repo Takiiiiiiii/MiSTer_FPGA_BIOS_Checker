@@ -461,6 +461,34 @@
       "status": "catalog"
     },
     {
+      "core": "Marty",
+      "filename": "mrom.m36",
+      "target_path": "games/Marty/mrom.m36",
+      "size": 2097152,
+      "md5": "6618519b2c104cf9b7e71a48381b44a9",
+      "url": "https://archive.org/download/mister_bios_db/FMTownsMarty.zip/mrom.m36",
+      "tags": [
+        "marty"
+      ],
+      "source": "biosdb",
+      "notes": "",
+      "status": "catalog"
+    },
+    {
+      "core": "Marty",
+      "filename": "mrom.m37",
+      "target_path": "games/Marty/mrom.m37",
+      "size": 2097152,
+      "md5": "75a5c7afb4bc8221bab8cf24db417950",
+      "url": "https://archive.org/download/mister_bios_db/FMTownsMarty.zip/mrom.m37",
+      "tags": [
+        "marty"
+      ],
+      "source": "biosdb",
+      "notes": "",
+      "status": "catalog"
+    },
+    {
       "core": "MegaCD",
       "filename": "boot.rom",
       "target_path": "games/MegaCD/boot.rom",

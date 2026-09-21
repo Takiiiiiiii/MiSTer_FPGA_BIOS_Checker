@@ -1,11 +1,11 @@
 # MiSTer FPGA BIOS List
 
-_Generated 2026-09-14 from [ajgowans/BiosDB_MiSTer](https://github.com/ajgowans/BiosDB_MiSTer) @ 2026-09-08_
+_Generated 2026-09-21 from [ajgowans/BiosDB_MiSTer](https://github.com/ajgowans/BiosDB_MiSTer) @ 2026-09-18_
 
 ## Summary
 
-- **75** total entries across **38** cores
-- 75 from BiosDB upstream
+- **77** total entries across **39** cores
+- 77 from BiosDB upstream
 - 0 flagged gap entries (needs community-verified hash)
 - 70 entries have a mirror in [retrobios](https://github.com/Abdess/retrobios) (2nd download source)
 
@@ -166,6 +166,15 @@ Target directory: `/media/fat/games/Loopy/`
 |---|---:|---|---|
 | `boot0.rom` | 32,768 | `d527e3ed1bf9bd0661154c202a65c5bd` | [archive.org](https://archive.org/download/mister_bios_db/CasioLoopy.zip/boot0.rom) |
 | `boot1.rom` | 524,288 | `c0f1c899c9ca098663d046d60779711d` | [archive.org](https://archive.org/download/mister_bios_db/CasioLoopy.zip/boot1.rom) |
+
+### Marty
+
+Target directory: `/media/fat/games/Marty/`
+
+| File | Size | MD5 | Notes |
+|---|---:|---|---|
+| `mrom.m36` | 2,097,152 | `6618519b2c104cf9b7e71a48381b44a9` | [archive.org](https://archive.org/download/mister_bios_db/FMTownsMarty.zip/mrom.m36) |
+| `mrom.m37` | 2,097,152 | `75a5c7afb4bc8221bab8cf24db417950` | [archive.org](https://archive.org/download/mister_bios_db/FMTownsMarty.zip/mrom.m37) |
 
 ### MegaCD
 
