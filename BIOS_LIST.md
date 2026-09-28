@@ -1,11 +1,11 @@
 # MiSTer FPGA BIOS List
 
-_Generated 2026-09-21 from [ajgowans/BiosDB_MiSTer](https://github.com/ajgowans/BiosDB_MiSTer) @ 2026-09-18_
+_Generated 2026-09-28 from [ajgowans/BiosDB_MiSTer](https://github.com/ajgowans/BiosDB_MiSTer) @ 2026-09-22_
 
 ## Summary
 
-- **77** total entries across **39** cores
-- 77 from BiosDB upstream
+- **79** total entries across **40** cores
+- 79 from BiosDB upstream
 - 0 flagged gap entries (needs community-verified hash)
 - 70 entries have a mirror in [retrobios](https://github.com/Abdess/retrobios) (2nd download source)
 
@@ -323,7 +323,8 @@ Target directory: `/media/fat/games/Studio-II/`
 | `boot1.rom` | 4,096 | `a6b94e449bc9ec58a30e1f75d590c558` | [archive.org](https://archive.org/download/mister_bios_db/Studio-II.zip/boot1.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/RCA/Studio%20II/boot1.rom) |
 | `boot2.rom` | 4,096 | `849a484aa4b2784ece5c35c39d9d51a8` | [archive.org](https://archive.org/download/mister_bios_db/Studio-II.zip/boot2.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/RCA/Studio%20II/boot2.rom) |
 | `boot3.rom` | 2,048 | `aeec6fe3934481e20eb7db6d5ff56a54` | [archive.org](https://archive.org/download/mister_bios_db/Studio-II.zip/boot3.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/RCA/Studio%20II/boot3.rom) |
-| `boot4.rom` | 768 | `9f037435b6721be9ee91dc93293e52ce` | [archive.org](https://archive.org/download/mister_bios_db/Studio-II.zip/boot4.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/RCA/Studio%20II/boot4.rom) |
+| `chip8.bin` | 768 | `9f037435b6721be9ee91dc93293e52ce` | [archive.org](https://archive.org/download/mister_bios_db/Studio-II.zip/chip8.bin)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/RCA/Studio%20II/boot4.rom) |
+| `openstudio2.bin` | 2,048 | `000d3330df9fcf05a009fd428efecdce` | [archive.org](https://archive.org/download/mister_bios_db/Studio-II.zip/openstudio2.bin) |
 
 ### SuperAcan
 
@@ -350,6 +351,14 @@ Target directory: `/media/fat/games/TI-99_4A/`
 | File | Size | MD5 | Notes |
 |---|---:|---|---|
 | `boot0.rom` | 196,608 | `a75bb208176c0aed1b6a04b2dcf4770c` | [archive.org](https://archive.org/download/mister_bios_db/TI-99_4A.zip/boot0.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Texas%20Instruments/TI-99/boot0.rom) |
+
+### VideoBrain
+
+Target directory: `/media/fat/games/VideoBrain/`
+
+| File | Size | MD5 | Notes |
+|---|---:|---|---|
+| `boot.rom` | 4,096 | `e1e7f6120eb8e23ca5c63b4246f04f18` | [archive.org](https://archive.org/download/mister_bios_db/VideoBrain.zip/boot.rom) |
 
 ### WonderSwan
 

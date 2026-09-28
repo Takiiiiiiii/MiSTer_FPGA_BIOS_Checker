@@ -1,6 +1,6 @@
 #!/bin/sh
 # check_bios.sh - MiSTer BIOS scanner
-# 77 BIOS entries, last updated 2026-09-21
+# 79 BIOS entries, last updated 2026-09-28
 #
 # Checks your MiSTer SD card for missing or mismatched BIOS files
 # and writes a report to /media/fat/bios_report.txt.
@@ -82,12 +82,14 @@ Studio-II|boot0.rom|Studio-II/boot0.rom|2048|b37205bf19b197682f00619d05da194b
 Studio-II|boot1.rom|Studio-II/boot1.rom|4096|a6b94e449bc9ec58a30e1f75d590c558
 Studio-II|boot2.rom|Studio-II/boot2.rom|4096|849a484aa4b2784ece5c35c39d9d51a8
 Studio-II|boot3.rom|Studio-II/boot3.rom|2048|aeec6fe3934481e20eb7db6d5ff56a54
-Studio-II|boot4.rom|Studio-II/boot4.rom|768|9f037435b6721be9ee91dc93293e52ce
+Studio-II|chip8.bin|Studio-II/chip8.bin|768|9f037435b6721be9ee91dc93293e52ce
+Studio-II|openstudio2.bin|Studio-II/openstudio2.bin|2048|000d3330df9fcf05a009fd428efecdce
 SuperAcan|boot0.rom|SuperAcan/boot0.rom|4096|53c4343e062bb3b337370bbb58e64d16
 SuperAcan|boot1.rom|SuperAcan/boot1.rom|8192|c5bab9c8148578cda8a7bc6098e7fb52
 SuperAcan|boot2.rom|SuperAcan/boot2.rom|8192|3938e12dae1845046b3f2fa023a6a56a
 TGFX16-CD|cd_bios.rom|TGFX16-CD/cd_bios.rom|262144|98d43a097a165b03df170fd5c2ad2c2f
 TI-99_4A|boot0.rom|TI-99_4A/boot0.rom|196608|a75bb208176c0aed1b6a04b2dcf4770c
+VideoBrain|boot.rom|VideoBrain/boot.rom|4096|e1e7f6120eb8e23ca5c63b4246f04f18
 WonderSwan|boot.rom|WonderSwan/boot.rom|4096|54b915694731cc22e07d3fb8a00ee2db
 WonderSwan|boot1.rom|WonderSwan/boot1.rom|8192|880893bd5a7d53fff826bd76a83d566e
 WonderSwanColor|boot.rom|WonderSwanColor/boot.rom|4096|54b915694731cc22e07d3fb8a00ee2db

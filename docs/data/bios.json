@@ -1069,11 +1069,11 @@
     },
     {
       "core": "Studio-II",
-      "filename": "boot4.rom",
-      "target_path": "games/Studio-II/boot4.rom",
+      "filename": "chip8.bin",
+      "target_path": "games/Studio-II/chip8.bin",
       "size": 768,
       "md5": "9f037435b6721be9ee91dc93293e52ce",
-      "url": "https://archive.org/download/mister_bios_db/Studio-II.zip/boot4.rom",
+      "url": "https://archive.org/download/mister_bios_db/Studio-II.zip/chip8.bin",
       "tags": [
         "studioii"
       ],
@@ -1082,6 +1082,20 @@
       "status": "catalog",
       "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/RCA/Studio%20II/boot4.rom",
       "retrobios_name": "boot4.rom"
+    },
+    {
+      "core": "Studio-II",
+      "filename": "openstudio2.bin",
+      "target_path": "games/Studio-II/openstudio2.bin",
+      "size": 2048,
+      "md5": "000d3330df9fcf05a009fd428efecdce",
+      "url": "https://archive.org/download/mister_bios_db/Studio-II.zip/openstudio2.bin",
+      "tags": [
+        "studioii"
+      ],
+      "source": "biosdb",
+      "notes": "",
+      "status": "catalog"
     },
     {
       "core": "SuperAcan",
@@ -1156,6 +1170,20 @@
       "status": "catalog",
       "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Texas%20Instruments/TI-99/boot0.rom",
       "retrobios_name": "boot0.rom"
+    },
+    {
+      "core": "VideoBrain",
+      "filename": "boot.rom",
+      "target_path": "games/VideoBrain/boot.rom",
+      "size": 4096,
+      "md5": "e1e7f6120eb8e23ca5c63b4246f04f18",
+      "url": "https://archive.org/download/mister_bios_db/VideoBrain.zip/boot.rom",
+      "tags": [
+        "videobrain"
+      ],
+      "source": "biosdb",
+      "notes": "",
+      "status": "catalog"
     },
     {
       "core": "WonderSwan",
