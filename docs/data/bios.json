@@ -444,7 +444,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Casio/Loopy/boot0.rom",
+      "retrobios_name": "boot0.rom"
     },
     {
       "core": "Loopy",
@@ -458,35 +460,41 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Casio/Loopy/boot1.rom",
+      "retrobios_name": "boot1.rom"
     },
     {
       "core": "Marty",
       "filename": "mrom.m36",
       "target_path": "games/Marty/mrom.m36",
       "size": 2097152,
-      "md5": "6618519b2c104cf9b7e71a48381b44a9",
+      "md5": "2ea2d6e18a6ec4cae998be5599fa69de",
       "url": "https://archive.org/download/mister_bios_db/FMTownsMarty.zip/mrom.m36",
       "tags": [
         "marty"
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Fujitsu/FM%20Towns/mrom.m36",
+      "retrobios_name": "mrom.m36"
     },
     {
       "core": "Marty",
       "filename": "mrom.m37",
       "target_path": "games/Marty/mrom.m37",
       "size": 2097152,
-      "md5": "75a5c7afb4bc8221bab8cf24db417950",
+      "md5": "609d6356ac4b950238339772199266ce",
       "url": "https://archive.org/download/mister_bios_db/FMTownsMarty.zip/mrom.m37",
       "tags": [
         "marty"
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Fujitsu/FM%20Towns/mrom.m37",
+      "retrobios_name": "mrom.m37"
     },
     {
       "core": "MegaCD",
@@ -1095,7 +1103,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/RCA/Studio%20II/openstudio2.bin",
+      "retrobios_name": "openstudio2.bin"
     },
     {
       "core": "SuperAcan",
@@ -1109,7 +1119,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Funtech/Super%20A%27Can/boot0.rom",
+      "retrobios_name": "boot0.rom"
     },
     {
       "core": "SuperAcan",
@@ -1123,7 +1135,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Funtech/Super%20A%27Can/boot1.rom",
+      "retrobios_name": "boot1.rom"
     },
     {
       "core": "SuperAcan",
@@ -1137,7 +1151,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Funtech/Super%20A%27Can/boot2.rom",
+      "retrobios_name": "boot2.rom"
     },
     {
       "core": "TGFX16-CD",
@@ -1183,7 +1199,9 @@
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog"
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/VideoBrain/Family%20Computer/boot.rom",
+      "retrobios_name": "boot.rom"
     },
     {
       "core": "WonderSwan",

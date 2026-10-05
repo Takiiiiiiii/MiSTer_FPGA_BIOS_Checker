@@ -1,13 +1,13 @@
 # MiSTer FPGA BIOS List
 
-_Generated 2026-09-28 from [ajgowans/BiosDB_MiSTer](https://github.com/ajgowans/BiosDB_MiSTer) @ 2026-09-22_
+_Generated 2026-10-05 from [ajgowans/BiosDB_MiSTer](https://github.com/ajgowans/BiosDB_MiSTer) @ 2026-09-29_
 
 ## Summary
 
 - **79** total entries across **40** cores
 - 79 from BiosDB upstream
 - 0 flagged gap entries (needs community-verified hash)
-- 70 entries have a mirror in [retrobios](https://github.com/Abdess/retrobios) (2nd download source)
+- 79 entries have a mirror in [retrobios](https://github.com/Abdess/retrobios) (2nd download source)
 
 ## How to use
 
@@ -164,8 +164,8 @@ Target directory: `/media/fat/games/Loopy/`
 
 | File | Size | MD5 | Notes |
 |---|---:|---|---|
-| `boot0.rom` | 32,768 | `d527e3ed1bf9bd0661154c202a65c5bd` | [archive.org](https://archive.org/download/mister_bios_db/CasioLoopy.zip/boot0.rom) |
-| `boot1.rom` | 524,288 | `c0f1c899c9ca098663d046d60779711d` | [archive.org](https://archive.org/download/mister_bios_db/CasioLoopy.zip/boot1.rom) |
+| `boot0.rom` | 32,768 | `d527e3ed1bf9bd0661154c202a65c5bd` | [archive.org](https://archive.org/download/mister_bios_db/CasioLoopy.zip/boot0.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Casio/Loopy/boot0.rom) |
+| `boot1.rom` | 524,288 | `c0f1c899c9ca098663d046d60779711d` | [archive.org](https://archive.org/download/mister_bios_db/CasioLoopy.zip/boot1.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Casio/Loopy/boot1.rom) |
 
 ### Marty
 
@@ -173,8 +173,8 @@ Target directory: `/media/fat/games/Marty/`
 
 | File | Size | MD5 | Notes |
 |---|---:|---|---|
-| `mrom.m36` | 2,097,152 | `6618519b2c104cf9b7e71a48381b44a9` | [archive.org](https://archive.org/download/mister_bios_db/FMTownsMarty.zip/mrom.m36) |
-| `mrom.m37` | 2,097,152 | `75a5c7afb4bc8221bab8cf24db417950` | [archive.org](https://archive.org/download/mister_bios_db/FMTownsMarty.zip/mrom.m37) |
+| `mrom.m36` | 2,097,152 | `2ea2d6e18a6ec4cae998be5599fa69de` | [archive.org](https://archive.org/download/mister_bios_db/FMTownsMarty.zip/mrom.m36)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Fujitsu/FM%20Towns/mrom.m36) |
+| `mrom.m37` | 2,097,152 | `609d6356ac4b950238339772199266ce` | [archive.org](https://archive.org/download/mister_bios_db/FMTownsMarty.zip/mrom.m37)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Fujitsu/FM%20Towns/mrom.m37) |
 
 ### MegaCD
 
@@ -324,7 +324,7 @@ Target directory: `/media/fat/games/Studio-II/`
 | `boot2.rom` | 4,096 | `849a484aa4b2784ece5c35c39d9d51a8` | [archive.org](https://archive.org/download/mister_bios_db/Studio-II.zip/boot2.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/RCA/Studio%20II/boot2.rom) |
 | `boot3.rom` | 2,048 | `aeec6fe3934481e20eb7db6d5ff56a54` | [archive.org](https://archive.org/download/mister_bios_db/Studio-II.zip/boot3.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/RCA/Studio%20II/boot3.rom) |
 | `chip8.bin` | 768 | `9f037435b6721be9ee91dc93293e52ce` | [archive.org](https://archive.org/download/mister_bios_db/Studio-II.zip/chip8.bin)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/RCA/Studio%20II/boot4.rom) |
-| `openstudio2.bin` | 2,048 | `000d3330df9fcf05a009fd428efecdce` | [archive.org](https://archive.org/download/mister_bios_db/Studio-II.zip/openstudio2.bin) |
+| `openstudio2.bin` | 2,048 | `000d3330df9fcf05a009fd428efecdce` | [archive.org](https://archive.org/download/mister_bios_db/Studio-II.zip/openstudio2.bin)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/RCA/Studio%20II/openstudio2.bin) |
 
 ### SuperAcan
 
@@ -332,9 +332,9 @@ Target directory: `/media/fat/games/SuperAcan/`
 
 | File | Size | MD5 | Notes |
 |---|---:|---|---|
-| `boot0.rom` | 4,096 | `53c4343e062bb3b337370bbb58e64d16` | [archive.org](https://archive.org/download/mister_bios_db/SuperAcan.zip/BIOS%2Finternal_68k.bin) |
-| `boot1.rom` | 8,192 | `c5bab9c8148578cda8a7bc6098e7fb52` | [archive.org](https://archive.org/download/mister_bios_db/SuperAcan.zip/BIOS%2Finternal_6502_1.bin) |
-| `boot2.rom` | 8,192 | `3938e12dae1845046b3f2fa023a6a56a` | [archive.org](https://archive.org/download/mister_bios_db/SuperAcan.zip/BIOS%2Finternal_6502_2.bin) |
+| `boot0.rom` | 4,096 | `53c4343e062bb3b337370bbb58e64d16` | [archive.org](https://archive.org/download/mister_bios_db/SuperAcan.zip/BIOS%2Finternal_68k.bin)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Funtech/Super%20A%27Can/boot0.rom) |
+| `boot1.rom` | 8,192 | `c5bab9c8148578cda8a7bc6098e7fb52` | [archive.org](https://archive.org/download/mister_bios_db/SuperAcan.zip/BIOS%2Finternal_6502_1.bin)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Funtech/Super%20A%27Can/boot1.rom) |
+| `boot2.rom` | 8,192 | `3938e12dae1845046b3f2fa023a6a56a` | [archive.org](https://archive.org/download/mister_bios_db/SuperAcan.zip/BIOS%2Finternal_6502_2.bin)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Funtech/Super%20A%27Can/boot2.rom) |
 
 ### TGFX16-CD
 
@@ -358,7 +358,7 @@ Target directory: `/media/fat/games/VideoBrain/`
 
 | File | Size | MD5 | Notes |
 |---|---:|---|---|
-| `boot.rom` | 4,096 | `e1e7f6120eb8e23ca5c63b4246f04f18` | [archive.org](https://archive.org/download/mister_bios_db/VideoBrain.zip/boot.rom) |
+| `boot.rom` | 4,096 | `e1e7f6120eb8e23ca5c63b4246f04f18` | [archive.org](https://archive.org/download/mister_bios_db/VideoBrain.zip/boot.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/VideoBrain/Family%20Computer/boot.rom) |
 
 ### WonderSwan
 
