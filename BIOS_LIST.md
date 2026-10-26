@@ -1,13 +1,13 @@
 # MiSTer FPGA BIOS List
 
-_Generated 2026-10-19 from [ajgowans/BiosDB_MiSTer](https://github.com/ajgowans/BiosDB_MiSTer) @ 2026-09-29_
+_Generated 2026-10-26 from [ajgowans/BiosDB_MiSTer](https://github.com/ajgowans/BiosDB_MiSTer) @ 2026-10-24_
 
 ## Summary
 
 - **79** total entries across **40** cores
 - 79 from BiosDB upstream
 - 0 flagged gap entries (needs community-verified hash)
-- 79 entries have a mirror in [retrobios](https://github.com/Abdess/retrobios) (2nd download source)
+- 78 entries have a mirror in [retrobios](https://github.com/Abdess/retrobios) (2nd download source)
 
 ## How to use
 
@@ -203,9 +203,9 @@ Target directory: `/media/fat/games/N64/`
 |---|---:|---|---|
 | `boot.rom` | 1,984 | `5c124e7948ada85da603a522782940d0` | [archive.org](https://archive.org/download/mister_bios_db/N64.zip/boot.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Nintendo/Nintendo%2064/boot.rom) |
 | `boot1.rom` | 1,984 | `d4232dc935cad0650ac2664d52281f3a` | [archive.org](https://archive.org/download/mister_bios_db/N64.zip/boot1.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Nintendo/Nintendo%2064/boot1.rom) |
-| `boot3.rom` | 4,194,304 | `8d3d9f294b6e174bc7b1d2fd1c727530` | [archive.org](https://archive.org/download/mister_bios_db/N64.zip/boot3.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Nintendo/64DD/64DD_IPL_v12_JPN.bin) |
-| `boot4.rom` | 4,194,304 | `aad37b1492886b892f1821f37fd3ae34` | [archive.org](https://archive.org/download/mister_bios_db/N64.zip/boot4.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Nintendo/64DD/64DD_IPL_DEV.bin) |
-| `boot5.rom` | 4,194,304 | `37c36e4286d36892a9fc70eafe4104be` | [archive.org](https://archive.org/download/mister_bios_db/N64.zip/boot5.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Nintendo/64DD/64DD_IPL_USA.bin) |
+| `boot3.rom` | 4,194,304 | `8d3d9f294b6e174bc7b1d2fd1c727530` | [archive.org](https://archive.org/download/mister_bios_db/N64.zip/boot3.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Nintendo/Nintendo%2064DD/64DD_IPL.bin) |
+| `boot4.rom` | 4,194,304 | `aad37b1492886b892f1821f37fd3ae34` | [archive.org](https://archive.org/download/mister_bios_db/N64.zip/boot4.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Nintendo/Nintendo%2064DD/64DD_IPL_DEV.bin) |
+| `boot5.rom` | 4,194,304 | `37c36e4286d36892a9fc70eafe4104be` | [archive.org](https://archive.org/download/mister_bios_db/N64.zip/boot5.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Nintendo/Nintendo%2064DD/64DD_IPL_US.n64) |
 
 ### NEOGEO
 
@@ -250,7 +250,7 @@ Target directory: `/media/fat/games/PC8801/`
 
 | File | Size | MD5 | Notes |
 |---|---:|---|---|
-| `boot.rom` | 393,216 | `f1ce4d5f83717093982e5f75516b8f3c` | [archive.org](https://archive.org/download/mister_bios_db/PC88.zip/PC8801%20MKII%20SR%20BIOS.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/NEC/PC-88/PC8801%20MKII%20SR%20BIOS.rom) |
+| `boot.rom` | 393,216 | `9f3ec09d19a0768f01fdbf2826ed3253` | [archive.org](https://archive.org/download/mister_bios_db/PC88.zip/boot.rom) |
 
 ### PocketChallengeV2
 

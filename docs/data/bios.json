@@ -624,8 +624,8 @@
       "source": "biosdb",
       "notes": "",
       "status": "catalog",
-      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Nintendo/64DD/64DD_IPL_v12_JPN.bin",
-      "retrobios_name": "64DD_IPL_v12_JPN.bin"
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Nintendo/Nintendo%2064DD/64DD_IPL.bin",
+      "retrobios_name": "64DD_IPL.bin"
     },
     {
       "core": "N64",
@@ -640,7 +640,7 @@
       "source": "biosdb",
       "notes": "",
       "status": "catalog",
-      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Nintendo/64DD/64DD_IPL_DEV.bin",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Nintendo/Nintendo%2064DD/64DD_IPL_DEV.bin",
       "retrobios_name": "64DD_IPL_DEV.bin"
     },
     {
@@ -656,8 +656,8 @@
       "source": "biosdb",
       "notes": "",
       "status": "catalog",
-      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Nintendo/64DD/64DD_IPL_USA.bin",
-      "retrobios_name": "64DD_IPL_USA.bin"
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Nintendo/Nintendo%2064DD/64DD_IPL_US.n64",
+      "retrobios_name": "64DD_IPL_US.n64"
     },
     {
       "core": "NEOGEO",
@@ -808,16 +808,14 @@
       "filename": "boot.rom",
       "target_path": "games/PC8801/boot.rom",
       "size": 393216,
-      "md5": "f1ce4d5f83717093982e5f75516b8f3c",
-      "url": "https://archive.org/download/mister_bios_db/PC88.zip/PC8801%20MKII%20SR%20BIOS.rom",
+      "md5": "9f3ec09d19a0768f01fdbf2826ed3253",
+      "url": "https://archive.org/download/mister_bios_db/PC88.zip/boot.rom",
       "tags": [
         "pc8801"
       ],
       "source": "biosdb",
       "notes": "",
-      "status": "catalog",
-      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/NEC/PC-88/PC8801%20MKII%20SR%20BIOS.rom",
-      "retrobios_name": "PC8801 MKII SR BIOS.rom"
+      "status": "catalog"
     },
     {
       "core": "PocketChallengeV2",
