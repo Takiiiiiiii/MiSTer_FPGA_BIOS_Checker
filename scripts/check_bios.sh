@@ -1,6 +1,6 @@
 #!/bin/sh
 # check_bios.sh - MiSTer BIOS scanner
-# 79 BIOS entries, last updated 2026-10-26
+# 80 BIOS entries, last updated 2026-11-02
 #
 # Checks your MiSTer SD card for missing or mismatched BIOS files
 # and writes a report to /media/fat/bios_report.txt.
@@ -89,7 +89,8 @@ SuperAcan|boot1.rom|SuperAcan/boot1.rom|8192|c5bab9c8148578cda8a7bc6098e7fb52
 SuperAcan|boot2.rom|SuperAcan/boot2.rom|8192|3938e12dae1845046b3f2fa023a6a56a
 TGFX16-CD|cd_bios.rom|TGFX16-CD/cd_bios.rom|262144|98d43a097a165b03df170fd5c2ad2c2f
 TI-99_4A|boot0.rom|TI-99_4A/boot0.rom|196608|a75bb208176c0aed1b6a04b2dcf4770c
-VideoBrain|boot.rom|VideoBrain/boot.rom|4096|e1e7f6120eb8e23ca5c63b4246f04f18
+VideoBrain|boot0.rom|VideoBrain/boot0.rom|4096|e1e7f6120eb8e23ca5c63b4246f04f18
+VideoBrain|boot1.rom|VideoBrain/boot1.rom|2048|41de2bceffb8257930a16e03fc431550
 WonderSwan|boot.rom|WonderSwan/boot.rom|4096|54b915694731cc22e07d3fb8a00ee2db
 WonderSwan|boot1.rom|WonderSwan/boot1.rom|8192|880893bd5a7d53fff826bd76a83d566e
 WonderSwanColor|boot.rom|WonderSwanColor/boot.rom|4096|54b915694731cc22e07d3fb8a00ee2db

@@ -1,11 +1,11 @@
 # MiSTer FPGA BIOS List
 
-_Generated 2026-10-26 from [ajgowans/BiosDB_MiSTer](https://github.com/ajgowans/BiosDB_MiSTer) @ 2026-10-24_
+_Generated 2026-11-02 from [ajgowans/BiosDB_MiSTer](https://github.com/ajgowans/BiosDB_MiSTer) @ 2026-10-27_
 
 ## Summary
 
-- **79** total entries across **40** cores
-- 79 from BiosDB upstream
+- **80** total entries across **40** cores
+- 80 from BiosDB upstream
 - 0 flagged gap entries (needs community-verified hash)
 - 78 entries have a mirror in [retrobios](https://github.com/Abdess/retrobios) (2nd download source)
 
@@ -358,7 +358,8 @@ Target directory: `/media/fat/games/VideoBrain/`
 
 | File | Size | MD5 | Notes |
 |---|---:|---|---|
-| `boot.rom` | 4,096 | `e1e7f6120eb8e23ca5c63b4246f04f18` | [archive.org](https://archive.org/download/mister_bios_db/VideoBrain.zip/boot.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/VideoBrain/Family%20Computer/boot.rom) |
+| `boot0.rom` | 4,096 | `e1e7f6120eb8e23ca5c63b4246f04f18` | [archive.org](https://archive.org/download/mister_bios_db/VideoBrain.zip/boot0.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/VideoBrain/Family%20Computer/boot.rom) |
+| `boot1.rom` | 2,048 | `41de2bceffb8257930a16e03fc431550` | [archive.org](https://archive.org/download/mister_bios_db/VideoBrain.zip/boot1.rom) |
 
 ### WonderSwan
 

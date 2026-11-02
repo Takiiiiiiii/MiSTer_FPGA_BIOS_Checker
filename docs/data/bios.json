@@ -1187,11 +1187,11 @@
     },
     {
       "core": "VideoBrain",
-      "filename": "boot.rom",
-      "target_path": "games/VideoBrain/boot.rom",
+      "filename": "boot0.rom",
+      "target_path": "games/VideoBrain/boot0.rom",
       "size": 4096,
       "md5": "e1e7f6120eb8e23ca5c63b4246f04f18",
-      "url": "https://archive.org/download/mister_bios_db/VideoBrain.zip/boot.rom",
+      "url": "https://archive.org/download/mister_bios_db/VideoBrain.zip/boot0.rom",
       "tags": [
         "videobrain"
       ],
@@ -1200,6 +1200,20 @@
       "status": "catalog",
       "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/VideoBrain/Family%20Computer/boot.rom",
       "retrobios_name": "boot.rom"
+    },
+    {
+      "core": "VideoBrain",
+      "filename": "boot1.rom",
+      "target_path": "games/VideoBrain/boot1.rom",
+      "size": 2048,
+      "md5": "41de2bceffb8257930a16e03fc431550",
+      "url": "https://archive.org/download/mister_bios_db/VideoBrain.zip/boot1.rom",
+      "tags": [
+        "videobrain"
+      ],
+      "source": "biosdb",
+      "notes": "",
+      "status": "catalog"
     },
     {
       "core": "WonderSwan",
