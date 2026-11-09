@@ -225,6 +225,34 @@
       "retrobios_name": "laser2001.rom"
     },
     {
+      "core": "FM-7",
+      "filename": "boot.rom",
+      "target_path": "games/FM-7/boot.rom",
+      "size": 131072,
+      "md5": "a330817f8f7ced752a7bcc8dfba8fd2e",
+      "url": "https://archive.org/download/mister_bios_db/FM7.zip/boot.rom",
+      "tags": [
+        "fm7"
+      ],
+      "source": "biosdb",
+      "notes": "",
+      "status": "catalog"
+    },
+    {
+      "core": "FM-7",
+      "filename": "boot1.rom",
+      "target_path": "games/FM-7/boot1.rom",
+      "size": 131072,
+      "md5": "513893d316e2b45493c6306aca657239",
+      "url": "https://archive.org/download/mister_bios_db/FM7.zip/boot1.rom",
+      "tags": [
+        "fm7"
+      ],
+      "source": "biosdb",
+      "notes": "",
+      "status": "catalog"
+    },
+    {
       "core": "Gamate",
       "filename": "boot.rom",
       "target_path": "games/Gamate/boot.rom",
@@ -992,6 +1020,64 @@
       "status": "catalog",
       "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Nintendo/Super%20Game%20Boy/SGB1.sfc/program.rom",
       "retrobios_name": "program.rom"
+    },
+    {
+      "core": "SharpX1",
+      "filename": "boot.rom",
+      "target_path": "games/SharpX1/boot.rom",
+      "size": 36864,
+      "md5": "a028f990cd1f4dbaa72ed8da771916be",
+      "url": "https://archive.org/download/mister_bios_db/SharpX1.zip/boot.rom",
+      "tags": [
+        "sharpx1"
+      ],
+      "source": "biosdb",
+      "notes": "",
+      "status": "catalog"
+    },
+    {
+      "core": "SharpX1",
+      "filename": "boot1.rom",
+      "target_path": "games/SharpX1/boot1.rom",
+      "size": 8192,
+      "md5": "ba7285001eed1ba235ed6de199cf4cb5",
+      "url": "https://archive.org/download/mister_bios_db/SharpX1.zip/boot1.rom",
+      "tags": [
+        "sharpx1"
+      ],
+      "source": "biosdb",
+      "notes": "",
+      "status": "catalog"
+    },
+    {
+      "core": "SharpX1",
+      "filename": "boot2.rom",
+      "target_path": "games/SharpX1/boot2.rom",
+      "size": 4096,
+      "md5": "eeeea1cd29c6e0e8b094790ae969bfa7",
+      "url": "https://archive.org/download/mister_bios_db/SharpX1.zip/boot2.rom",
+      "tags": [
+        "sharpx1"
+      ],
+      "source": "biosdb",
+      "notes": "",
+      "status": "catalog",
+      "retrobios_url": "https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Sharp/X1/iplrom.x1",
+      "retrobios_name": "iplrom.x1"
+    },
+    {
+      "core": "SharpX1",
+      "filename": "boot3.rom",
+      "target_path": "games/SharpX1/boot3.rom",
+      "size": 262144,
+      "md5": "fd90317193bb20c8045bf6eebc921919",
+      "url": "https://archive.org/download/mister_bios_db/SharpX1.zip/boot3.rom",
+      "tags": [
+        "sharpx1"
+      ],
+      "source": "biosdb",
+      "notes": "",
+      "status": "catalog"
     },
     {
       "core": "SNES",

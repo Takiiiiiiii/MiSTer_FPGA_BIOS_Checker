@@ -1,6 +1,6 @@
 #!/bin/sh
 # check_bios.sh - MiSTer BIOS scanner
-# 80 BIOS entries, last updated 2026-11-02
+# 86 BIOS entries, last updated 2026-11-09
 #
 # Checks your MiSTer SD card for missing or mismatched BIOS files
 # and writes a report to /media/fat/bios_report.txt.
@@ -29,6 +29,8 @@ COCO3|boot0.rom|COCO3/boot0.rom|32768|7233c6c429f3ce1c7392f28a933e0b6f
 COCO3|boot1.rom|COCO3/boot1.rom|8192|8cab28f4b7311b8df63c07bb3b59bfd5
 COCO3|boot2.rom|COCO3/boot2.rom|8192|171fb7a5d3b808565295b45c773abaaf
 CreatiVision|boot.rom|CreatiVision/boot.rom|16384|4dfadfb1158f84e2df2b85b13f303986
+FM-7|boot.rom|FM-7/boot.rom|131072|a330817f8f7ced752a7bcc8dfba8fd2e
+FM-7|boot1.rom|FM-7/boot1.rom|131072|513893d316e2b45493c6306aca657239
 Gamate|boot.rom|Gamate/boot.rom|4096|ef67993a94503c4b7798b5901c7dda52
 GAMEBOY|boot1.rom|GAMEBOY/boot1.rom|2304|dbfce9db9deaa2567f6a84fde55f9680
 GameCom|boot.rom|GameCom/boot.rom|262144|3f2178d717dd309ed7424d49ef92987f
@@ -77,6 +79,10 @@ Saturn|boot.rom|Saturn/boot.rom|524288|0306c0e408d6682dd2d86324bd4ac661
 SCV|boot.rom|SCV/boot.rom|6144|b596975be2e0360232bbeb1e492ab873
 SGB|Super Game Boy 2.sfc|SGB/Super Game Boy 2.sfc|524288|8ecd73eb4edf7ed7e81aef1be80031d5
 SGB|Super Game Boy.sfc|SGB/Super Game Boy.sfc|262144|b15ddb15721c657d82c5bab6db982ee9
+SharpX1|boot.rom|SharpX1/boot.rom|36864|a028f990cd1f4dbaa72ed8da771916be
+SharpX1|boot1.rom|SharpX1/boot1.rom|8192|ba7285001eed1ba235ed6de199cf4cb5
+SharpX1|boot2.rom|SharpX1/boot2.rom|4096|eeeea1cd29c6e0e8b094790ae969bfa7
+SharpX1|boot3.rom|SharpX1/boot3.rom|262144|fd90317193bb20c8045bf6eebc921919
 SNES|bsx_bios.rom|SNES/bsx_bios.rom|1048576|96cf17bf589fcbfa6f8de2dc84f19fa2
 Studio-II|boot0.rom|Studio-II/boot0.rom|2048|b37205bf19b197682f00619d05da194b
 Studio-II|boot1.rom|Studio-II/boot1.rom|4096|a6b94e449bc9ec58a30e1f75d590c558

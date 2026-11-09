@@ -1,13 +1,13 @@
 # MiSTer FPGA BIOS List
 
-_Generated 2026-11-02 from [ajgowans/BiosDB_MiSTer](https://github.com/ajgowans/BiosDB_MiSTer) @ 2026-10-27_
+_Generated 2026-11-09 from [ajgowans/BiosDB_MiSTer](https://github.com/ajgowans/BiosDB_MiSTer) @ 2026-11-04_
 
 ## Summary
 
-- **80** total entries across **40** cores
-- 80 from BiosDB upstream
+- **86** total entries across **42** cores
+- 86 from BiosDB upstream
 - 0 flagged gap entries (needs community-verified hash)
-- 78 entries have a mirror in [retrobios](https://github.com/Abdess/retrobios) (2nd download source)
+- 79 entries have a mirror in [retrobios](https://github.com/Abdess/retrobios) (2nd download source)
 
 ## How to use
 
@@ -88,6 +88,15 @@ Target directory: `/media/fat/games/CreatiVision/`
 | File | Size | MD5 | Notes |
 |---|---:|---|---|
 | `boot.rom` | 16,384 | `4dfadfb1158f84e2df2b85b13f303986` | [archive.org](https://archive.org/download/mister_bios_db/CreatiVision.zip/Laser_2001_Bootrom.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/VTech/CreatiVision/laser2001.rom) |
+
+### FM-7
+
+Target directory: `/media/fat/games/FM-7/`
+
+| File | Size | MD5 | Notes |
+|---|---:|---|---|
+| `boot.rom` | 131,072 | `a330817f8f7ced752a7bcc8dfba8fd2e` | [archive.org](https://archive.org/download/mister_bios_db/FM7.zip/boot.rom) |
+| `boot1.rom` | 131,072 | `513893d316e2b45493c6306aca657239` | [archive.org](https://archive.org/download/mister_bios_db/FM7.zip/boot1.rom) |
 
 ### Gamate
 
@@ -304,6 +313,17 @@ Target directory: `/media/fat/games/SGB/`
 |---|---:|---|---|
 | `Super Game Boy 2.sfc` | 524,288 | `8ecd73eb4edf7ed7e81aef1be80031d5` | [archive.org](https://archive.org/download/mister_bios_db/SGB.zip/SGB2.sfc)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Nintendo/Super%20Game%20Boy/SGB2.sfc/program.rom) |
 | `Super Game Boy.sfc` | 262,144 | `b15ddb15721c657d82c5bab6db982ee9` | [archive.org](https://archive.org/download/mister_bios_db/SGB.zip/SGB1.sfc)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Nintendo/Super%20Game%20Boy/SGB1.sfc/program.rom) |
+
+### SharpX1
+
+Target directory: `/media/fat/games/SharpX1/`
+
+| File | Size | MD5 | Notes |
+|---|---:|---|---|
+| `boot.rom` | 36,864 | `a028f990cd1f4dbaa72ed8da771916be` | [archive.org](https://archive.org/download/mister_bios_db/SharpX1.zip/boot.rom) |
+| `boot1.rom` | 8,192 | `ba7285001eed1ba235ed6de199cf4cb5` | [archive.org](https://archive.org/download/mister_bios_db/SharpX1.zip/boot1.rom) |
+| `boot2.rom` | 4,096 | `eeeea1cd29c6e0e8b094790ae969bfa7` | [archive.org](https://archive.org/download/mister_bios_db/SharpX1.zip/boot2.rom)<br>[retrobios](https://raw.githubusercontent.com/Abdess/retrobios/main/bios/Sharp/X1/iplrom.x1) |
+| `boot3.rom` | 262,144 | `fd90317193bb20c8045bf6eebc921919` | [archive.org](https://archive.org/download/mister_bios_db/SharpX1.zip/boot3.rom) |
 
 ### SNES
 
